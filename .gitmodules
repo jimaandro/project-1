@@ -1,0 +1,3 @@
+[submodule "project_ALU"]
+	path = project_ALU
+	url = https://github.com/jimaandro/generic_flP_alu.git
