@@ -1,0 +1,1402 @@
+!SESSION 2022-09-14 22:29:13.976 -----------------------------------------------
+eclipse.buildId=2017.2
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/dimitriosa/Downloads/Project/project_1/project_1.sdk
+
+!ENTRY org.eclipse.ui 2 0 2022-09-14 22:29:21.008
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-14 22:29:21.008
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-09-14 22:29:21.998
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-14 22:29:21.998
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:29.816
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:29.818
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:29.826
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:29.827
+!MESSAGE XSCT Command: [setws /home/dimitriosa/Downloads/Project/project_1/project_1.sdk], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:33.838
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:33.840
+!MESSAGE XSCT command with result: [setws /home/dimitriosa/Downloads/Project/project_1/project_1.sdk], Result: [null, ]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:34.062
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:34.147
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:34.477
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:34.486
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7k325t",
+"family": "kintex7",
+"timestamp": "Wed Sep 14 21:03:30 2022",
+"vivado_version": "2017.2",
+"part": "xc7k325tffg900-2",
+}]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:34.489
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:34.494
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"ALUdesign_0": {"hier_name": "ALUdesign_0",
+"type": "ALUdesign",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "5.4",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "10.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.3",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:34.644
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:34.648
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x00007FFF",
+"size": "32768",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:34.668
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:34.671
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:34.690
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:29:34.692
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"ALUdesign_0": {},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.298
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.307
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"freertos901_xilinx_v1_0": {"name": "freertos901_xilinx",
+"version": "1.0",
+"desc": "FreeRTOS is a market leading open source RTOS",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/ThirdParty/bsp/freertos901_xilinx_v1_0",
+},
+"standalone_v6_3": {"name": "standalone",
+"version": "6.3",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/bsp/standalone_v6_3",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.324
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.326
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.334
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.335
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.336
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.338
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.339
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.340
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.348
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.350
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.350
+!MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.634
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "standalone",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Update the serial_flash_family & serial_flash_interface in xilisf library in BSP settings!
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "standalone",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "standalone",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "standalone",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos901_xilinx standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "standalone",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "standalone",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos901_xilinx standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "standalone",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos901_xilinx standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "standalone",
+},
+"mba_fs_boot": {"userdefname": "mba_fs_boot",
+"description": "fs-boot for microblaze by Xilinx Inc..",
+"supp_proc": "",
+"supp_os": "",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/mba_fs_boot",
+"os": "standalone",
+},
+"ddr_self_refresh": {"userdefname": "DDR self refresh",
+"description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/ddr_self_refresh",
+"os": "standalone",
+},
+"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program.",
+"supp_proc": "microblaze ps7_cortexa9",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "standalone",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "standalone",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos901_xilinx",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "standalone",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "standalone",
+},
+"xilkernel_thread_demo": {"userdefname": "Xilkernel POSIX Threads Demo",
+"description": "This Xilkernel based application provides a simple example of how to create multiple POSIX threads and synchronize with them when they are complete. This example creates an initial master thread. The master thread creates 4 worker threads that go off to compute parts of a sum and return the partial sum as the result. The master thread accumulates the partial sums and prints the result. This example can serve as your starting point for your end application thread structure.",
+"supp_proc": "microblaze",
+"supp_os": "xilkernel",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/xilkernel_thread_demo",
+"os": "standalone",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "standalone",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "freertos901_xilinx",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "standalone",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze",
+"supp_os": "standalone xilkernel",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/peripheral_tests",
+"os": "standalone",
+},
+"libmetal_echo_demo": {"userdefname": "Libmetal Echo Demo",
+"description": "Libmetal Echo Application",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/libmetal_echo_demo",
+"os": "standalone",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "standalone",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "standalone",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "standalone",
+},
+"empty_application": {"userdefname": "Empty Application",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel freertos901_xilinx",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "standalone",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.638
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.645
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [{Format=This application requires a Uart IP in the hardware., Time=1663183824645, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.646
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app empty_application -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.652
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app empty_application -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.654
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app empty_application -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:24.659
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app empty_application -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:39.243
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:39.245
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:39.703
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:39.704
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:40.075
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:40.078
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:41.466
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:41.468
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:41.625
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:41.627
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:41.903
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:41.905
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:42.057
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:30:42.059
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:12.163
+!MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:12.448
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "standalone",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Update the serial_flash_family & serial_flash_interface in xilisf library in BSP settings!
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "standalone",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "standalone",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "standalone",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos901_xilinx standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "standalone",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "standalone",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos901_xilinx standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "standalone",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos901_xilinx standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "standalone",
+},
+"mba_fs_boot": {"userdefname": "mba_fs_boot",
+"description": "fs-boot for microblaze by Xilinx Inc..",
+"supp_proc": "",
+"supp_os": "",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/mba_fs_boot",
+"os": "standalone",
+},
+"ddr_self_refresh": {"userdefname": "DDR self refresh",
+"description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/ddr_self_refresh",
+"os": "standalone",
+},
+"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program.",
+"supp_proc": "microblaze ps7_cortexa9",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "standalone",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "standalone",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos901_xilinx",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "standalone",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "standalone",
+},
+"xilkernel_thread_demo": {"userdefname": "Xilkernel POSIX Threads Demo",
+"description": "This Xilkernel based application provides a simple example of how to create multiple POSIX threads and synchronize with them when they are complete. This example creates an initial master thread. The master thread creates 4 worker threads that go off to compute parts of a sum and return the partial sum as the result. The master thread accumulates the partial sums and prints the result. This example can serve as your starting point for your end application thread structure.",
+"supp_proc": "microblaze",
+"supp_os": "xilkernel",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/xilkernel_thread_demo",
+"os": "standalone",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "standalone",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "freertos901_xilinx",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "standalone",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze",
+"supp_os": "standalone xilkernel",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/peripheral_tests",
+"os": "standalone",
+},
+"libmetal_echo_demo": {"userdefname": "Libmetal Echo Demo",
+"description": "Libmetal Echo Application",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/libmetal_echo_demo",
+"os": "standalone",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "standalone",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "standalone",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "standalone",
+},
+"empty_application": {"userdefname": "Empty Application",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel freertos901_xilinx",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "standalone",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:12.450
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:12.457
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [{Format=This application requires a Uart IP in the hardware., Time=1663183872456, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:15.992
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app empty_application -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:15.998
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app empty_application -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:17.136
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:17.142
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [{Format=This application requires a Uart IP in the hardware., Time=1663183877142, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:19.295
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app empty_application -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:19.302
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app empty_application -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:32.477
+!MESSAGE XSCT Command: [::hsi::utils::write_sw_mss -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw testing_bsp -dir /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp -processor microblaze_0 -os standalone -app empty_application], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:32.484
+!MESSAGE XSCT command with result: [::hsi::utils::write_sw_mss -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw testing_bsp -dir /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp -processor microblaze_0 -os standalone -app empty_application], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:32.609
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:32.611
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:32.611
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:32.613
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:32.614
+!MESSAGE XSCT Command: [::hsi::utils::generate_bsp_sources /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:34.451
+!MESSAGE XSCT command with result: [::hsi::utils::generate_bsp_sources /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.913
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_REORDER_INSTR], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.915
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_REORDER_INSTR], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.916
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.918
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.919
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_BARREL], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.920
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_BARREL], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.921
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_PCMP_INSTR], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.922
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_PCMP_INSTR], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.923
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_DIV], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.924
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_DIV], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.926
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_FPU], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.927
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_FPU], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.928
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_HW_MUL], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.930
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_HW_MUL], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.930
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_AREA_OPTIMIZED], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.932
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_AREA_OPTIMIZED], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.939
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.941
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.941
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.944
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.944
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.945
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.946
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.947
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.948
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:35.950
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.003
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.006
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.007
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.009
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.009
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.011
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.011
+!MESSAGE XSCT Command: [::hsi::utils::opensw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.012
+!MESSAGE XSCT command with result: [::hsi::utils::opensw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.013
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss -app empty_application -processor microblaze_0 -os standalone -dir /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing/src], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.071
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss -app empty_application -processor microblaze_0 -os standalone -dir /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing/src], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.478
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.482
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.482
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.485
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.504
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.506
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, ALUdesign_0 microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.506
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.510
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, {"ALUdesign_0": {"name": "generic",
+"ver": "2.0",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.1",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.1",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.6",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.511
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.552
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"ALUdesign_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"clk_wiz_1": {"version": "5.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"clk_wiz_v1_2": {"name": "clk_wiz",
+"version": "1.2",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_2",
+},
+},
+},
+"mdm_1": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+},
+},
+},
+"microblaze_0": {"version": "10.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_v2_6": {"name": "cpu",
+"version": "2.6",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_6",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_1": {"name": "bram",
+"version": "4.1",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_1",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_1": {"name": "bram",
+"version": "4.1",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_1",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_lmb_bram": {"version": "8.3",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_clk_wiz_1_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "/opt/Xilinx/SDK/2017.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.571
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.573
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.573
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.576
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.584
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.586
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.604
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:36.606
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:37.070
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:37.074
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:37.074
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:37.076
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:37.086
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:37.088
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:37.098
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:31:37.102
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.236
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.core.CommandLauncher.printCommandLine(CommandLauncher.java:287)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:250)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.294
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.299
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.300
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.303
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.304
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.307
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.323
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.326
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.331
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.911
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.919
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.923
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.927
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.976
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.979
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.984
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:37.998
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:38.020
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:38.021
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:38.022
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:38.320
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:38.322
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:38.322
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:38.323
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:39.044
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-14 22:31:39.047
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:98)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:193)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:259)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-14 22:31:39.226
+!MESSAGE Indexed 'testing' (0 sources, 0 headers) in 0.004 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-14 22:31:40.352
+!MESSAGE Indexed 'testing_bsp' (33 sources, 72 headers) in 1.11 sec: 1,212 declarations; 4,489 references; 44 unresolved inclusions; 5 syntax errors; 34 unresolved names (0.59%)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:32:24.015
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:32:24.018
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:32:24.018
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:32:24.020
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:32:24.021
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:32:24.022
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:32:24.023
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:32:24.024
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:32:24.025
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:32:24.037
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, {"ALUdesign_0": {"name": "generic",
+"ver": "2.0",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.1",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.1",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.6",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:32:24.038
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-14 22:32:24.039
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/testing_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-09-14 22:38:14.069
+!MESSAGE Executed Webtalk command
+!SESSION 2022-09-15 11:20:52.034 -----------------------------------------------
+eclipse.buildId=2017.2
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/dimitriosa/Downloads/Project/project_1/project_1.sdk
+
+!ENTRY org.eclipse.ui 2 0 2022-09-15 11:20:55.452
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-15 11:20:55.452
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-09-15 11:20:56.366
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-15 11:20:56.366
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-15 11:21:02.199
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-15 11:21:02.200
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-15 11:21:02.211
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-15 11:21:02.212
+!MESSAGE XSCT Command: [setws /home/dimitriosa/Downloads/Project/project_1/project_1.sdk], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-15 11:21:02.676
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-15 11:21:02.677
+!MESSAGE XSCT command with result: [setws /home/dimitriosa/Downloads/Project/project_1/project_1.sdk], Result: [null, ]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-15 11:21:02.705
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-15 11:21:02.759
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-5

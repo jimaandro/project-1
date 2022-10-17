@@ -1,0 +1,1515 @@
+11:52:58 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+11:52:58 INFO  : Registering command handlers for Vitis TCF services
+11:53:02 INFO  : Platform repository initialization has completed.
+11:53:06 INFO  : XSCT server has started successfully.
+11:53:13 INFO  : plnx-install-location is set to ''
+11:53:13 INFO  : Successfully done setting XSCT server connection channel  
+11:53:13 INFO  : Successfully done query RDI_DATADIR 
+11:53:13 INFO  : Successfully done setting workspace for the tool. 
+11:56:36 INFO  : Result from executing command 'getProjects': design_1_wrapper
+11:56:36 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+11:56:36 WARN  : An unexpected exception occurred in the module 'platform project logging'
+11:56:36 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+11:56:40 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+12:09:57 INFO  : No changes in MSS file content so sources will not be generated.
+12:29:35 INFO  : Result from executing command 'getProjects': design_1_wrapper
+12:29:35 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+12:29:39 INFO  : Checking for BSP changes to sync application flags for project 'testing'...
+13:00:31 INFO  : No changes in MSS file content so sources will not be generated.
+13:02:24 INFO  : Result from executing command 'getProjects': design_1_wrapper
+13:02:24 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+13:02:28 INFO  : Checking for BSP changes to sync application flags for project 'hello'...
+13:02:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:03:00 WARN  : IDE version '2021.2.0' doesn't match hw_server version '2017.2'. Some debug features may not work.
+13:03:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+13:03:19 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+10:19:03 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+10:19:06 INFO  : Platform repository initialization has completed.
+10:19:08 INFO  : XSCT server has started successfully.
+10:19:08 INFO  : Registering command handlers for Vitis TCF services
+10:19:10 INFO  : plnx-install-location is set to ''
+10:19:10 INFO  : Successfully done setting XSCT server connection channel  
+10:19:10 INFO  : Successfully done setting workspace for the tool. 
+10:19:10 INFO  : Successfully done query RDI_DATADIR 
+10:20:56 INFO  : Checking for BSP changes to sync application flags for project 'testing'...
+10:23:05 INFO  : Checking for BSP changes to sync application flags for project 'testing'...
+10:23:57 INFO  : Checking for BSP changes to sync application flags for project 'testing'...
+10:30:58 INFO  : No changes in MSS file content so sources will not be generated.
+11:11:56 INFO  : Result from executing command 'getProjects': design_1_wrapper
+11:11:56 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+11:11:59 INFO  : Checking for BSP changes to sync application flags for project 'test'...
+11:31:59 INFO  : No changes in MSS file content so sources will not be generated.
+11:43:06 INFO  : Result from executing command 'removePlatformRepo': 
+11:43:13 INFO  : Result from executing command 'getProjects': design_1_wrapper
+11:43:13 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+11:44:11 INFO  : No changes in MSS file content so sources will not be generated.
+11:47:15 INFO  : Result from executing command 'getProjects': design_1_wrapper2
+11:47:15 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+11:47:16 INFO  : Platform 'design_1_wrapper2' is added to custom repositories.
+11:47:17 INFO  : Platform 'design_1_wrapper2' is added to custom repositories.
+11:47:51 INFO  : No changes in MSS file content so sources will not be generated.
+11:48:25 INFO  : Result from executing command 'getProjects': design_1_wrapper2
+11:48:25 INFO  : Result from executing command 'getPlatforms': design_1_wrapper2|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper2/export/design_1_wrapper2/design_1_wrapper2.xpfm;design_1_wrapper|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+11:48:28 INFO  : Checking for BSP changes to sync application flags for project 'testbench'...
+11:56:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:03:25 ERROR : emulation provider is not avaiable.
+12:03:25 INFO  : The emulator is not running, terminating debug launch configuration
+20:37:02 INFO  : Result from executing command 'getProjects': design_1_wrapper2;design_1_wrapper3
+20:37:02 INFO  : Result from executing command 'getPlatforms': design_1_wrapper2|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper2/export/design_1_wrapper2/design_1_wrapper2.xpfm;design_1_wrapper|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+20:37:02 INFO  : Platform 'design_1_wrapper3' is added to custom repositories.
+20:37:03 INFO  : Platform 'design_1_wrapper3' is added to custom repositories.
+20:37:52 INFO  : No changes in MSS file content so sources will not be generated.
+20:40:06 INFO  : Result from executing command 'getProjects': design_1_wrapper3
+20:40:06 INFO  : Result from executing command 'getPlatforms': design_1_wrapper3|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper3/export/design_1_wrapper3/design_1_wrapper3.xpfm;design_1_wrapper|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+20:40:09 INFO  : Checking for BSP changes to sync application flags for project 'testbench2'...
+20:50:14 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+20:50:18 INFO  : Platform repository initialization has completed.
+20:50:18 INFO  : Registering command handlers for Vitis TCF services
+20:50:18 INFO  : XSCT server has started successfully.
+20:50:18 INFO  : plnx-install-location is set to ''
+20:50:18 INFO  : Successfully done setting XSCT server connection channel  
+20:50:18 INFO  : Successfully done setting workspace for the tool. 
+20:50:18 INFO  : Successfully done query RDI_DATADIR 
+20:52:43 INFO  : Result from executing command 'getProjects': design_1_wrapper2;design_1_wrapper3
+20:52:43 INFO  : Result from executing command 'getPlatforms': design_1_wrapper3|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper3/export/design_1_wrapper3/design_1_wrapper3.xpfm;xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+20:52:43 INFO  : Platform 'design_1_wrapper2' is added to custom repositories.
+20:52:45 INFO  : Platform 'design_1_wrapper2' is added to custom repositories.
+20:53:52 ERROR : An unexpected exception occurred in the module 'reading platform'
+20:53:52 WARN  : Failed to update project references for project testbench2
+20:54:17 INFO  : Result from executing command 'getProjects': design_1_wrapper2
+20:54:17 INFO  : Result from executing command 'getPlatforms': design_1_wrapper2|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper2/export/design_1_wrapper2/design_1_wrapper2.xpfm;xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+20:54:20 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+15:52:48 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+15:52:52 INFO  : Platform repository initialization has completed.
+15:52:52 INFO  : XSCT server has started successfully.
+15:52:52 INFO  : plnx-install-location is set to ''
+15:52:52 INFO  : Successfully done setting XSCT server connection channel  
+15:52:52 INFO  : Registering command handlers for Vitis TCF services
+15:52:53 INFO  : Successfully done setting workspace for the tool. 
+15:52:53 INFO  : Successfully done query RDI_DATADIR 
+18:32:39 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+18:42:39 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+18:46:02 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+18:56:38 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+18:58:00 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+18:58:56 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+18:59:09 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+18:59:31 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+19:01:57 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+19:03:03 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+19:03:24 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+19:11:33 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+20:36:22 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+20:37:12 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+20:40:09 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+20:44:50 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+20:51:10 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+20:53:05 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+20:57:29 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+20:59:55 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+21:06:11 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+21:13:14 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+21:36:56 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+21:38:30 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+21:39:41 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+21:49:18 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+21:50:07 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+21:51:30 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+21:58:09 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+16:57:23 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+16:57:27 INFO  : Platform repository initialization has completed.
+16:57:27 INFO  : Registering command handlers for Vitis TCF services
+16:57:28 INFO  : XSCT server has started successfully.
+16:57:28 INFO  : Successfully done setting XSCT server connection channel  
+16:57:28 INFO  : plnx-install-location is set to ''
+16:57:28 INFO  : Successfully done setting workspace for the tool. 
+16:57:28 INFO  : Successfully done query RDI_DATADIR 
+17:37:37 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+17:41:28 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+17:41:48 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+17:42:50 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+17:43:28 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+17:44:09 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+17:44:54 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+17:46:46 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+17:49:03 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+17:50:05 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+17:52:20 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+10:55:12 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+10:55:17 INFO  : Platform repository initialization has completed.
+10:55:17 INFO  : XSCT server has started successfully.
+10:55:17 INFO  : Successfully done setting XSCT server connection channel  
+10:55:17 INFO  : plnx-install-location is set to ''
+10:55:17 INFO  : Registering command handlers for Vitis TCF services
+10:55:17 INFO  : Successfully done setting workspace for the tool. 
+10:55:17 INFO  : Successfully done query RDI_DATADIR 
+10:56:47 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+13:12:31 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+13:12:35 INFO  : Platform repository initialization has completed.
+13:12:35 INFO  : Registering command handlers for Vitis TCF services
+13:12:35 INFO  : XSCT server has started successfully.
+13:12:35 INFO  : Successfully done setting XSCT server connection channel  
+13:12:35 INFO  : plnx-install-location is set to ''
+13:12:35 INFO  : Successfully done query RDI_DATADIR 
+13:12:35 INFO  : Successfully done setting workspace for the tool. 
+13:13:31 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+13:56:13 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+22:02:44 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+22:02:48 INFO  : Platform repository initialization has completed.
+22:02:48 INFO  : Registering command handlers for Vitis TCF services
+22:02:48 INFO  : XSCT server has started successfully.
+22:02:48 INFO  : plnx-install-location is set to ''
+22:02:48 INFO  : Successfully done setting XSCT server connection channel  
+22:02:48 INFO  : Successfully done setting workspace for the tool. 
+22:02:48 INFO  : Successfully done query RDI_DATADIR 
+23:24:30 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+23:24:34 INFO  : Platform repository initialization has completed.
+23:24:34 INFO  : Registering command handlers for Vitis TCF services
+23:24:34 INFO  : XSCT server has started successfully.
+23:24:34 INFO  : plnx-install-location is set to ''
+23:24:34 INFO  : Successfully done setting XSCT server connection channel  
+23:24:34 INFO  : Successfully done setting workspace for the tool. 
+23:24:34 INFO  : Successfully done query RDI_DATADIR 
+23:25:03 INFO  : Result from executing command 'getProjects': design_1_wrapper2
+23:25:03 INFO  : Result from executing command 'getPlatforms': design_1_wrapper2|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper2/export/design_1_wrapper2/design_1_wrapper2.xpfm;xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+23:25:06 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+23:25:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:25:34 WARN  : IDE version '2021.2.0' doesn't match hw_server version '2017.2'. Some debug features may not work.
+23:25:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+23:25:54 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+23:28:37 INFO  : Connected to target on host 'batcha' and port '3121'.
+23:29:00 INFO  : Connected to target on host 'batcha' and port '3121'.
+23:29:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:29:58 WARN  : IDE version '2021.2.0' doesn't match hw_server version '2017.2'. Some debug features may not work.
+23:30:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+23:30:13 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+23:31:52 INFO  : Connected to target on host 'batcha' and port '3121'.
+23:32:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:32:13 WARN  : IDE version '2021.2.0' doesn't match hw_server version '2017.2'. Some debug features may not work.
+23:32:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+23:32:37 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+09:01:05 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+09:01:07 INFO  : Platform repository initialization has completed.
+09:01:08 INFO  : Registering command handlers for Vitis TCF services
+09:01:10 INFO  : XSCT server has started successfully.
+09:01:10 INFO  : Successfully done setting XSCT server connection channel  
+09:01:10 INFO  : plnx-install-location is set to ''
+09:01:10 INFO  : Successfully done setting workspace for the tool. 
+09:01:10 INFO  : Successfully done query RDI_DATADIR 
+10:15:31 INFO  : Result from executing command 'getProjects': design_1_wrapper2
+10:15:31 INFO  : Result from executing command 'getPlatforms': design_1_wrapper2|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper2/export/design_1_wrapper2/design_1_wrapper2.xpfm;xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+10:15:34 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+12:06:20 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+12:09:32 INFO  : Bit file '/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit' is generated.
+12:09:32 INFO  : Connected to target on host 'batcha' and port '3121'.
+12:09:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+12:09:41 INFO  : Device configured successfully with "/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit"
+12:11:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:11:33 WARN  : IDE version '2021.2.0' doesn't match hw_server version '2017.2'. Some debug features may not work.
+12:11:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:11:46 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+12:12:16 INFO  : Connected to target on host 'batcha' and port '3121'.
+09:33:42 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+09:33:47 INFO  : XSCT server has started successfully.
+09:33:47 INFO  : Successfully done setting XSCT server connection channel  
+09:33:47 INFO  : plnx-install-location is set to ''
+09:33:47 INFO  : Successfully done setting workspace for the tool. 
+09:33:47 INFO  : Platform repository initialization has completed.
+09:33:47 INFO  : Registering command handlers for Vitis TCF services
+09:33:48 INFO  : Successfully done query RDI_DATADIR 
+09:51:03 INFO  : Connected to target on host 'batcha' and port '3121'.
+09:59:25 INFO  : Bit file '/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit' is generated.
+09:59:25 INFO  : Connected to target on host 'batcha' and port '3121'.
+09:59:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+09:59:34 INFO  : Device configured successfully with "/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit"
+10:00:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:00:25 WARN  : IDE version '2021.2.0' doesn't match hw_server version '2017.2'. Some debug features may not work.
+10:00:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+10:00:38 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+10:39:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:39:41 WARN  : IDE version '2021.2.0' doesn't match hw_server version '2017.2'. Some debug features may not work.
+10:39:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+10:39:57 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+10:41:02 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+10:41:02 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+10:41:02 INFO  : 'jtag frequency' command is executed.
+10:41:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+10:41:11 INFO  : Device configured successfully with "/home/dimitriosa/Downloads/Project/project_1/final/_ide/bitstream/design_1_wrapper2.bit"
+10:41:11 INFO  : Context for processor 'microblaze_0' is selected.
+10:41:11 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper2/export/design_1_wrapper2/hw/design_1_wrapper2.xsa'.
+10:41:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:41:11 INFO  : Context for processor 'microblaze_0' is selected.
+10:41:11 INFO  : System reset is completed.
+10:41:14 INFO  : 'after 3000' command is executed.
+10:41:14 INFO  : Context for processor 'microblaze_0' is selected.
+10:41:14 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final/Debug/final.elf' is downloaded to processor 'microblaze_0'.
+10:41:14 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}
+fpga -file /home/dimitriosa/Downloads/Project/project_1/final/_ide/bitstream/design_1_wrapper2.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapper2/export/design_1_wrapper2/hw/design_1_wrapper2.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final/Debug/final.elf
+----------------End of Script----------------
+
+10:41:14 INFO  : Context for processor 'microblaze_0' is selected.
+10:41:14 INFO  : 'con' command is executed.
+10:41:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:41:15 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final_system/_ide/scripts/systemdebugger_final_system_standalone.tcl'
+10:41:59 INFO  : Disconnected from the channel tcfchan#3.
+10:42:00 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+10:42:00 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+10:42:00 INFO  : 'jtag frequency' command is executed.
+10:42:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+10:42:09 INFO  : Device configured successfully with "/home/dimitriosa/Downloads/Project/project_1/final/_ide/bitstream/design_1_wrapper2.bit"
+10:42:09 INFO  : Context for processor 'microblaze_0' is selected.
+10:42:10 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper2/export/design_1_wrapper2/hw/design_1_wrapper2.xsa'.
+10:42:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:42:10 INFO  : Context for processor 'microblaze_0' is selected.
+10:42:10 INFO  : System reset is completed.
+10:42:13 INFO  : 'after 3000' command is executed.
+10:42:13 INFO  : Context for processor 'microblaze_0' is selected.
+10:42:13 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final/Debug/final.elf' is downloaded to processor 'microblaze_0'.
+10:42:13 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}
+fpga -file /home/dimitriosa/Downloads/Project/project_1/final/_ide/bitstream/design_1_wrapper2.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapper2/export/design_1_wrapper2/hw/design_1_wrapper2.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final/Debug/final.elf
+----------------End of Script----------------
+
+10:42:13 INFO  : Context for processor 'microblaze_0' is selected.
+10:42:13 INFO  : 'con' command is executed.
+10:42:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:42:13 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final_system/_ide/scripts/systemdebugger_final_system_standalone.tcl'
+10:50:15 INFO  : Disconnected from the channel tcfchan#4.
+10:50:15 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+10:50:16 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+10:50:16 INFO  : 'jtag frequency' command is executed.
+10:50:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+10:50:25 INFO  : Device configured successfully with "/home/dimitriosa/Downloads/Project/project_1/final/_ide/bitstream/design_1_wrapper2.bit"
+10:50:25 INFO  : Context for processor 'microblaze_0' is selected.
+10:50:25 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper2/export/design_1_wrapper2/hw/design_1_wrapper2.xsa'.
+10:50:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:50:25 INFO  : Context for processor 'microblaze_0' is selected.
+10:50:25 INFO  : System reset is completed.
+10:50:28 INFO  : 'after 3000' command is executed.
+10:50:28 INFO  : Context for processor 'microblaze_0' is selected.
+10:50:28 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final/Debug/final.elf' is downloaded to processor 'microblaze_0'.
+10:50:28 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}
+fpga -file /home/dimitriosa/Downloads/Project/project_1/final/_ide/bitstream/design_1_wrapper2.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapper2/export/design_1_wrapper2/hw/design_1_wrapper2.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final/Debug/final.elf
+----------------End of Script----------------
+
+10:50:28 INFO  : Context for processor 'microblaze_0' is selected.
+10:50:28 INFO  : 'con' command is executed.
+10:50:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:50:28 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final_system/_ide/scripts/systemdebugger_final_system_standalone.tcl'
+10:53:45 INFO  : Checking for BSP changes to sync application flags for project 'final'...
+10:54:35 INFO  : Disconnected from the channel tcfchan#5.
+10:54:35 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+10:54:36 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+10:54:36 INFO  : 'jtag frequency' command is executed.
+10:54:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+10:54:45 INFO  : Device configured successfully with "/home/dimitriosa/Downloads/Project/project_1/final/_ide/bitstream/design_1_wrapper2.bit"
+10:54:45 INFO  : Context for processor 'microblaze_0' is selected.
+10:54:45 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper2/export/design_1_wrapper2/hw/design_1_wrapper2.xsa'.
+10:54:45 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:54:45 INFO  : Context for processor 'microblaze_0' is selected.
+10:54:45 INFO  : System reset is completed.
+10:54:48 INFO  : 'after 3000' command is executed.
+10:54:48 INFO  : Context for processor 'microblaze_0' is selected.
+10:54:48 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final/Debug/final.elf' is downloaded to processor 'microblaze_0'.
+10:54:48 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}
+fpga -file /home/dimitriosa/Downloads/Project/project_1/final/_ide/bitstream/design_1_wrapper2.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapper2/export/design_1_wrapper2/hw/design_1_wrapper2.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final/Debug/final.elf
+----------------End of Script----------------
+
+10:54:49 INFO  : Context for processor 'microblaze_0' is selected.
+10:54:49 INFO  : 'con' command is executed.
+10:54:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:54:49 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final_system/_ide/scripts/systemdebugger_final_system_standalone.tcl'
+12:05:59 INFO  : Result from executing command 'getProjects': design_1_wrapper2;design_1_wrapperfinal
+12:05:59 INFO  : Result from executing command 'getPlatforms': design_1_wrapper2|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper2/export/design_1_wrapper2/design_1_wrapper2.xpfm;xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+12:05:59 WARN  : An unexpected exception occurred in the module 'platform project logging'
+12:05:59 INFO  : Platform 'design_1_wrapperfinal' is added to custom repositories.
+12:06:01 INFO  : Platform 'design_1_wrapperfinal' is added to custom repositories.
+12:07:21 INFO  : Result from executing command 'getProjects': design_1_wrapperfinal
+12:07:21 INFO  : Result from executing command 'getPlatforms': design_1_wrapper2|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper2/export/design_1_wrapper2/design_1_wrapper2.xpfm;design_1_wrapperfinal|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/design_1_wrapperfinal.xpfm;xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+12:07:24 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+12:10:52 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+12:16:40 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+12:35:08 INFO  : Bit file '/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit' is generated.
+12:35:08 INFO  : Connected to target on host 'batcha' and port '3121'.
+12:35:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+12:35:18 INFO  : Device configured successfully with "/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit"
+12:37:44 INFO  : Disconnected from the channel tcfchan#6.
+12:37:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+12:37:46 INFO  : 'fpga -state' command is executed.
+12:37:46 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+12:37:46 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+12:37:46 INFO  : 'jtag frequency' command is executed.
+12:37:46 INFO  : Context for processor 'microblaze_0' is selected.
+12:37:46 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+12:37:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:37:46 INFO  : Context for processor 'microblaze_0' is selected.
+12:37:46 INFO  : System reset is completed.
+12:37:49 INFO  : 'after 3000' command is executed.
+12:37:49 INFO  : Context for processor 'microblaze_0' is selected.
+12:37:49 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+12:37:49 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+12:37:49 INFO  : Context for processor 'microblaze_0' is selected.
+12:37:49 INFO  : 'con' command is executed.
+12:37:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:37:49 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+12:39:24 INFO  : Disconnected from the channel tcfchan#8.
+12:39:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+12:39:24 INFO  : 'fpga -state' command is executed.
+12:39:24 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+12:39:24 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+12:39:24 INFO  : 'jtag frequency' command is executed.
+12:39:24 INFO  : Context for processor 'microblaze_0' is selected.
+12:39:24 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+12:39:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:39:24 INFO  : Context for processor 'microblaze_0' is selected.
+12:39:24 INFO  : System reset is completed.
+12:39:27 INFO  : 'after 3000' command is executed.
+12:39:27 INFO  : Context for processor 'microblaze_0' is selected.
+12:39:27 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+12:39:27 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+12:39:27 INFO  : Context for processor 'microblaze_0' is selected.
+12:39:27 INFO  : 'con' command is executed.
+12:39:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:39:27 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+12:43:02 INFO  : Disconnected from the channel tcfchan#9.
+12:43:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+12:43:02 INFO  : 'fpga -state' command is executed.
+12:43:02 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+12:43:03 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+12:43:03 INFO  : 'jtag frequency' command is executed.
+12:43:03 INFO  : Context for processor 'microblaze_0' is selected.
+12:43:03 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+12:43:03 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:43:03 INFO  : Context for processor 'microblaze_0' is selected.
+12:43:03 INFO  : System reset is completed.
+12:43:06 INFO  : 'after 3000' command is executed.
+12:43:06 INFO  : Context for processor 'microblaze_0' is selected.
+12:43:06 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+12:43:06 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+12:43:06 INFO  : Context for processor 'microblaze_0' is selected.
+12:43:06 INFO  : 'con' command is executed.
+12:43:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:43:06 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+12:44:56 INFO  : Disconnected from the channel tcfchan#10.
+12:44:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+12:44:56 INFO  : 'fpga -state' command is executed.
+12:44:56 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+12:44:56 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+12:44:56 INFO  : 'jtag frequency' command is executed.
+12:44:56 INFO  : Context for processor 'microblaze_0' is selected.
+12:44:56 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+12:44:56 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:44:56 INFO  : Context for processor 'microblaze_0' is selected.
+12:44:56 INFO  : System reset is completed.
+12:44:59 INFO  : 'after 3000' command is executed.
+12:45:00 INFO  : Context for processor 'microblaze_0' is selected.
+12:45:00 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+12:45:00 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+12:45:00 INFO  : Context for processor 'microblaze_0' is selected.
+12:45:00 INFO  : 'con' command is executed.
+12:45:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:45:00 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+12:51:57 INFO  : Result from executing command 'getProjects': design_1_wrapperfinal
+12:51:57 INFO  : Result from executing command 'getPlatforms': design_1_wrapper2|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapper2/export/design_1_wrapper2/design_1_wrapper2.xpfm;design_1_wrapperfinal|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/design_1_wrapperfinal.xpfm;xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+12:52:00 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+12:53:43 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+12:54:57 INFO  : Bit file '/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit' is generated.
+12:54:57 INFO  : Connected to target on host 'batcha' and port '3121'.
+12:54:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+12:55:07 INFO  : Device configured successfully with "/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit"
+12:55:14 INFO  : Disconnected from the channel tcfchan#11.
+12:55:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+12:55:14 INFO  : 'fpga -state' command is executed.
+12:55:14 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+12:55:14 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+12:55:14 INFO  : 'jtag frequency' command is executed.
+12:55:14 INFO  : Context for processor 'microblaze_0' is selected.
+12:55:14 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+12:55:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:55:14 INFO  : Context for processor 'microblaze_0' is selected.
+12:55:14 INFO  : System reset is completed.
+12:55:17 INFO  : 'after 3000' command is executed.
+12:55:17 INFO  : Context for processor 'microblaze_0' is selected.
+12:55:17 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+12:55:17 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+12:55:17 INFO  : Context for processor 'microblaze_0' is selected.
+12:55:17 INFO  : 'con' command is executed.
+12:55:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:55:17 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+12:59:53 INFO  : Disconnected from the channel tcfchan#13.
+09:54:28 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+09:54:32 INFO  : XSCT server has started successfully.
+09:54:32 INFO  : Platform repository initialization has completed.
+09:54:32 INFO  : plnx-install-location is set to ''
+09:54:32 INFO  : Registering command handlers for Vitis TCF services
+09:54:32 INFO  : Successfully done setting XSCT server connection channel  
+09:54:32 INFO  : Successfully done query RDI_DATADIR 
+09:54:32 INFO  : Successfully done setting workspace for the tool. 
+10:01:32 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+10:02:53 INFO  : Bit file '/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit' is generated.
+10:02:53 INFO  : Connected to target on host 'batcha' and port '3121'.
+10:02:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+10:03:02 INFO  : Device configured successfully with "/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit"
+10:03:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+10:03:46 INFO  : 'fpga -state' command is executed.
+10:03:47 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+10:03:47 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+10:03:47 INFO  : 'jtag frequency' command is executed.
+10:03:47 INFO  : Context for processor 'microblaze_0' is selected.
+10:03:47 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+10:03:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:03:47 INFO  : Context for processor 'microblaze_0' is selected.
+10:03:47 INFO  : System reset is completed.
+10:03:50 INFO  : 'after 3000' command is executed.
+10:03:50 INFO  : Context for processor 'microblaze_0' is selected.
+10:03:50 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+10:03:50 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+10:03:50 INFO  : Context for processor 'microblaze_0' is selected.
+10:03:50 INFO  : 'con' command is executed.
+10:03:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:03:50 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+10:08:26 INFO  : Disconnected from the channel tcfchan#2.
+10:08:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+10:08:27 INFO  : 'fpga -state' command is executed.
+10:08:27 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+10:08:27 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+10:08:27 INFO  : 'jtag frequency' command is executed.
+10:08:27 INFO  : Context for processor 'microblaze_0' is selected.
+10:08:28 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+10:08:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:08:28 INFO  : Context for processor 'microblaze_0' is selected.
+10:08:28 INFO  : System reset is completed.
+10:08:31 INFO  : 'after 3000' command is executed.
+10:08:31 INFO  : Context for processor 'microblaze_0' is selected.
+10:08:31 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+10:08:31 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+10:08:31 INFO  : Context for processor 'microblaze_0' is selected.
+10:08:31 INFO  : 'con' command is executed.
+10:08:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:08:31 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+10:11:30 INFO  : Disconnected from the channel tcfchan#3.
+12:55:19 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+12:55:23 INFO  : Platform repository initialization has completed.
+12:55:24 INFO  : Registering command handlers for Vitis TCF services
+12:55:24 INFO  : XSCT server has started successfully.
+12:55:24 INFO  : Successfully done setting XSCT server connection channel  
+12:55:25 INFO  : Successfully done setting workspace for the tool. 
+12:55:25 INFO  : plnx-install-location is set to ''
+12:55:25 INFO  : Successfully done query RDI_DATADIR 
+13:59:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+13:59:16 INFO  : 'fpga -state' command is executed.
+13:59:17 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+13:59:17 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+13:59:17 INFO  : 'jtag frequency' command is executed.
+13:59:18 INFO  : Context for processor 'microblaze_0' is selected.
+13:59:18 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+13:59:18 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:59:18 INFO  : Context for processor 'microblaze_0' is selected.
+13:59:18 INFO  : System reset is completed.
+13:59:21 INFO  : 'after 3000' command is executed.
+13:59:21 INFO  : Context for processor 'microblaze_0' is selected.
+13:59:21 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+13:59:21 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+13:59:21 INFO  : Context for processor 'microblaze_0' is selected.
+13:59:21 INFO  : 'con' command is executed.
+13:59:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:59:21 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+14:02:57 INFO  : Disconnected from the channel tcfchan#2.
+19:39:55 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+19:39:59 INFO  : Platform repository initialization has completed.
+19:39:59 INFO  : Registering command handlers for Vitis TCF services
+19:39:59 INFO  : XSCT server has started successfully.
+19:39:59 INFO  : plnx-install-location is set to ''
+19:39:59 INFO  : Successfully done setting XSCT server connection channel  
+19:39:59 INFO  : Successfully done setting workspace for the tool. 
+19:39:59 INFO  : Successfully done query RDI_DATADIR 
+19:41:10 INFO  : Result from executing command 'getProjects': design_1_wrapperfinal
+19:41:10 INFO  : Result from executing command 'getPlatforms': design_1_wrapperfinal|/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/design_1_wrapperfinal.xpfm;xilinx_zcu102_base_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_202020_1/xilinx_zcu102_base_202020_1.xpfm;xilinx_zcu102_base_dfx_202020_1|/opt/xilinx/platforms/xilinx_zcu102_base_dfx_202020_1/xilinx_zcu102_base_dfx_202020_1.xpfm
+19:41:13 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+19:42:46 INFO  : Bit file '/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit' is generated.
+19:42:46 INFO  : Connected to target on host 'batcha' and port '3121'.
+19:42:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+19:42:55 INFO  : Device configured successfully with "/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit"
+19:43:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+19:43:27 INFO  : 'fpga -state' command is executed.
+19:43:28 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+19:43:28 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+19:43:28 INFO  : 'jtag frequency' command is executed.
+19:43:28 INFO  : Context for processor 'microblaze_0' is selected.
+19:43:28 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+19:43:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:43:28 INFO  : Context for processor 'microblaze_0' is selected.
+19:43:28 INFO  : System reset is completed.
+19:43:31 INFO  : 'after 3000' command is executed.
+19:43:31 INFO  : Context for processor 'microblaze_0' is selected.
+19:43:32 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+19:43:32 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+19:43:32 INFO  : Context for processor 'microblaze_0' is selected.
+19:43:32 INFO  : 'con' command is executed.
+19:43:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+19:43:32 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+19:47:12 INFO  : Disconnected from the channel tcfchan#3.
+19:47:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+19:47:12 INFO  : 'fpga -state' command is executed.
+19:47:12 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+19:47:12 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+19:47:12 INFO  : 'jtag frequency' command is executed.
+19:47:13 INFO  : Context for processor 'microblaze_0' is selected.
+19:47:13 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+19:47:13 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:47:13 INFO  : Context for processor 'microblaze_0' is selected.
+19:47:13 INFO  : System reset is completed.
+19:47:16 INFO  : 'after 3000' command is executed.
+19:47:16 INFO  : Context for processor 'microblaze_0' is selected.
+19:47:16 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+19:47:16 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+19:47:16 INFO  : Context for processor 'microblaze_0' is selected.
+19:47:16 INFO  : 'con' command is executed.
+19:47:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+19:47:16 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+19:53:48 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+19:54:44 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+19:56:42 INFO  : Disconnected from the channel tcfchan#4.
+19:56:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+19:56:43 INFO  : 'fpga -state' command is executed.
+19:56:43 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+19:56:43 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+19:56:43 INFO  : 'jtag frequency' command is executed.
+19:56:43 INFO  : Context for processor 'microblaze_0' is selected.
+19:56:43 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+19:56:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:56:43 INFO  : Context for processor 'microblaze_0' is selected.
+19:56:43 INFO  : System reset is completed.
+19:56:46 INFO  : 'after 3000' command is executed.
+19:56:46 INFO  : Context for processor 'microblaze_0' is selected.
+19:56:46 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+19:56:46 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+19:56:46 INFO  : Context for processor 'microblaze_0' is selected.
+19:56:46 INFO  : 'con' command is executed.
+19:56:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+19:56:46 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+20:01:32 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+20:14:08 INFO  : Bit file '/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit' is generated.
+20:14:08 INFO  : Connected to target on host 'batcha' and port '3121'.
+20:14:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+20:14:17 INFO  : Device configured successfully with "/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit"
+20:15:09 INFO  : Disconnected from the channel tcfchan#5.
+20:15:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+20:15:09 INFO  : 'fpga -state' command is executed.
+20:15:09 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+20:15:09 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+20:15:09 INFO  : 'jtag frequency' command is executed.
+20:15:09 INFO  : Context for processor 'microblaze_0' is selected.
+20:15:09 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+20:15:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:15:09 INFO  : Context for processor 'microblaze_0' is selected.
+20:15:09 INFO  : System reset is completed.
+20:15:12 INFO  : 'after 3000' command is executed.
+20:15:12 INFO  : Context for processor 'microblaze_0' is selected.
+20:15:12 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+20:15:12 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+20:15:12 INFO  : Context for processor 'microblaze_0' is selected.
+20:15:12 INFO  : 'con' command is executed.
+20:15:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:15:12 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+20:15:54 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+20:15:59 INFO  : Disconnected from the channel tcfchan#6.
+20:15:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+20:15:59 INFO  : 'fpga -state' command is executed.
+20:15:59 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+20:15:59 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+20:15:59 INFO  : 'jtag frequency' command is executed.
+20:15:59 INFO  : Context for processor 'microblaze_0' is selected.
+20:15:59 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+20:15:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:15:59 INFO  : Context for processor 'microblaze_0' is selected.
+20:15:59 INFO  : System reset is completed.
+20:16:02 INFO  : 'after 3000' command is executed.
+20:16:02 INFO  : Context for processor 'microblaze_0' is selected.
+20:16:02 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+20:16:02 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+20:16:02 INFO  : Context for processor 'microblaze_0' is selected.
+20:16:02 INFO  : 'con' command is executed.
+20:16:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:16:02 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+20:18:45 INFO  : Disconnected from the channel tcfchan#7.
+20:18:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+20:18:45 INFO  : 'fpga -state' command is executed.
+20:18:45 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+20:18:46 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+20:18:46 INFO  : 'jtag frequency' command is executed.
+20:18:46 INFO  : Context for processor 'microblaze_0' is selected.
+20:18:46 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+20:18:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:18:46 INFO  : Context for processor 'microblaze_0' is selected.
+20:18:46 INFO  : System reset is completed.
+20:18:49 INFO  : 'after 3000' command is executed.
+20:18:49 INFO  : Context for processor 'microblaze_0' is selected.
+20:18:49 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+20:18:49 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+20:18:49 INFO  : Context for processor 'microblaze_0' is selected.
+20:18:49 INFO  : 'con' command is executed.
+20:18:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:18:49 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+20:27:27 INFO  : Disconnected from the channel tcfchan#8.
+20:27:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+20:27:27 INFO  : 'fpga -state' command is executed.
+20:27:27 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+20:27:27 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+20:27:27 INFO  : 'jtag frequency' command is executed.
+20:27:27 INFO  : Context for processor 'microblaze_0' is selected.
+20:27:27 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+20:27:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:27:27 INFO  : Context for processor 'microblaze_0' is selected.
+20:27:27 INFO  : System reset is completed.
+20:27:30 INFO  : 'after 3000' command is executed.
+20:27:30 INFO  : Context for processor 'microblaze_0' is selected.
+20:27:31 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+20:27:31 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+20:27:31 INFO  : Context for processor 'microblaze_0' is selected.
+20:27:31 INFO  : 'con' command is executed.
+20:27:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:27:31 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+20:30:17 INFO  : Disconnected from the channel tcfchan#9.
+20:30:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+20:30:17 INFO  : 'fpga -state' command is executed.
+20:30:17 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+20:30:17 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+20:30:17 INFO  : 'jtag frequency' command is executed.
+20:30:17 INFO  : Context for processor 'microblaze_0' is selected.
+20:30:17 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+20:30:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:30:17 INFO  : Context for processor 'microblaze_0' is selected.
+20:30:17 INFO  : System reset is completed.
+20:30:20 INFO  : 'after 3000' command is executed.
+20:30:20 INFO  : Context for processor 'microblaze_0' is selected.
+20:30:20 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+20:30:20 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+20:30:20 INFO  : Context for processor 'microblaze_0' is selected.
+20:30:20 INFO  : 'con' command is executed.
+20:30:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:30:20 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+21:30:16 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+21:30:54 INFO  : Bit file '/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit' is generated.
+21:30:54 INFO  : Connected to target on host 'batcha' and port '3121'.
+21:30:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+21:31:03 INFO  : Device configured successfully with "/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit"
+21:31:19 INFO  : Disconnected from the channel tcfchan#10.
+21:31:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+21:31:19 INFO  : 'fpga -state' command is executed.
+21:31:19 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+21:31:19 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+21:31:19 INFO  : 'jtag frequency' command is executed.
+21:31:19 INFO  : Context for processor 'microblaze_0' is selected.
+21:31:19 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+21:31:19 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:31:19 INFO  : Context for processor 'microblaze_0' is selected.
+21:31:19 INFO  : System reset is completed.
+21:31:22 INFO  : 'after 3000' command is executed.
+21:31:22 INFO  : Context for processor 'microblaze_0' is selected.
+21:31:22 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+21:31:22 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+21:31:22 INFO  : Context for processor 'microblaze_0' is selected.
+21:31:22 INFO  : 'con' command is executed.
+21:31:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:31:22 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+21:34:08 INFO  : Disconnected from the channel tcfchan#11.
+21:34:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+21:34:08 INFO  : 'fpga -state' command is executed.
+21:34:08 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+21:34:08 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+21:34:08 INFO  : 'jtag frequency' command is executed.
+21:34:08 INFO  : Context for processor 'microblaze_0' is selected.
+21:34:08 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+21:34:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:34:08 INFO  : Context for processor 'microblaze_0' is selected.
+21:34:08 INFO  : System reset is completed.
+21:34:12 INFO  : 'after 3000' command is executed.
+21:34:12 INFO  : Context for processor 'microblaze_0' is selected.
+21:34:12 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+21:34:12 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+21:34:12 INFO  : Context for processor 'microblaze_0' is selected.
+21:34:12 INFO  : 'con' command is executed.
+21:34:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:34:12 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+21:36:10 INFO  : Disconnected from the channel tcfchan#12.
+21:40:44 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+21:40:48 INFO  : Platform repository initialization has completed.
+21:40:48 INFO  : Registering command handlers for Vitis TCF services
+21:40:48 INFO  : XSCT server has started successfully.
+21:40:48 INFO  : plnx-install-location is set to ''
+21:40:48 INFO  : Successfully done setting XSCT server connection channel  
+21:40:48 INFO  : Successfully done query RDI_DATADIR 
+21:40:48 INFO  : Successfully done setting workspace for the tool. 
+21:40:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+21:40:59 INFO  : 'fpga -state' command is executed.
+21:41:00 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+21:41:01 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+21:41:01 INFO  : 'jtag frequency' command is executed.
+21:41:01 INFO  : Context for processor 'microblaze_0' is selected.
+21:41:01 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+21:41:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:41:01 INFO  : Context for processor 'microblaze_0' is selected.
+21:41:01 INFO  : System reset is completed.
+21:41:04 INFO  : 'after 3000' command is executed.
+21:41:04 INFO  : Context for processor 'microblaze_0' is selected.
+21:41:04 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+21:41:04 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+21:41:04 INFO  : Context for processor 'microblaze_0' is selected.
+21:41:04 INFO  : 'con' command is executed.
+21:41:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:41:04 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+22:11:26 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+22:11:30 INFO  : Platform repository initialization has completed.
+22:11:30 INFO  : Registering command handlers for Vitis TCF services
+22:11:30 INFO  : XSCT server has started successfully.
+22:11:31 INFO  : Successfully done setting XSCT server connection channel  
+22:11:31 INFO  : Successfully done setting workspace for the tool. 
+22:11:31 INFO  : plnx-install-location is set to ''
+22:11:31 INFO  : Successfully done query RDI_DATADIR 
+22:12:10 INFO  : Bit file '/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit' is generated.
+22:12:11 INFO  : Connected to target on host 'batcha' and port '3121'.
+22:12:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+22:12:20 INFO  : Device configured successfully with "/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit"
+22:13:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+22:13:47 INFO  : 'fpga -state' command is executed.
+22:13:48 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+22:13:48 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+22:13:48 INFO  : 'jtag frequency' command is executed.
+22:13:48 INFO  : Context for processor 'microblaze_0' is selected.
+22:13:48 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+22:13:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:13:48 INFO  : Context for processor 'microblaze_0' is selected.
+22:13:48 INFO  : System reset is completed.
+22:13:51 INFO  : 'after 3000' command is executed.
+22:13:51 INFO  : Context for processor 'microblaze_0' is selected.
+22:13:51 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+22:13:51 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+22:13:51 INFO  : Context for processor 'microblaze_0' is selected.
+22:13:51 INFO  : 'con' command is executed.
+22:13:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:13:51 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+22:14:21 INFO  : Disconnected from the channel tcfchan#2.
+22:14:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+22:14:21 INFO  : 'fpga -state' command is executed.
+22:14:21 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+22:14:21 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+22:14:21 INFO  : 'jtag frequency' command is executed.
+22:14:21 INFO  : Context for processor 'microblaze_0' is selected.
+22:14:22 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+22:14:22 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:14:22 INFO  : Context for processor 'microblaze_0' is selected.
+22:14:22 INFO  : System reset is completed.
+22:14:25 INFO  : 'after 3000' command is executed.
+22:14:25 INFO  : Context for processor 'microblaze_0' is selected.
+22:14:25 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+22:14:25 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+22:14:25 INFO  : Context for processor 'microblaze_0' is selected.
+22:14:25 INFO  : 'con' command is executed.
+22:14:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:14:25 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+22:15:13 INFO  : Disconnected from the channel tcfchan#3.
+22:15:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+22:15:14 INFO  : 'fpga -state' command is executed.
+22:15:14 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+22:15:14 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+22:15:14 INFO  : 'jtag frequency' command is executed.
+22:15:14 INFO  : Context for processor 'microblaze_0' is selected.
+22:15:14 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+22:15:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:15:14 INFO  : Context for processor 'microblaze_0' is selected.
+22:15:14 INFO  : System reset is completed.
+22:15:17 INFO  : 'after 3000' command is executed.
+22:15:17 INFO  : Context for processor 'microblaze_0' is selected.
+22:15:18 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+22:15:18 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+22:15:18 INFO  : Context for processor 'microblaze_0' is selected.
+22:15:18 INFO  : 'con' command is executed.
+22:15:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:15:18 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+22:19:56 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+23:00:16 INFO  : Disconnected from the channel tcfchan#4.
+16:00:07 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+16:00:11 INFO  : Platform repository initialization has completed.
+16:00:11 INFO  : XSCT server has started successfully.
+16:00:11 INFO  : Registering command handlers for Vitis TCF services
+16:00:11 INFO  : plnx-install-location is set to ''
+16:00:11 INFO  : Successfully done setting XSCT server connection channel  
+16:00:11 INFO  : Successfully done query RDI_DATADIR 
+16:00:11 INFO  : Successfully done setting workspace for the tool. 
+16:05:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+16:05:08 INFO  : 'fpga -state' command is executed.
+16:05:09 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+16:05:09 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+16:05:09 INFO  : 'jtag frequency' command is executed.
+16:05:09 INFO  : Context for processor 'microblaze_0' is selected.
+16:05:09 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+16:05:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:05:09 INFO  : Context for processor 'microblaze_0' is selected.
+16:05:09 INFO  : System reset is completed.
+16:05:12 INFO  : 'after 3000' command is executed.
+16:05:12 INFO  : Context for processor 'microblaze_0' is selected.
+16:05:12 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+16:05:12 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+16:05:12 INFO  : Context for processor 'microblaze_0' is selected.
+16:05:12 INFO  : 'con' command is executed.
+16:05:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:05:12 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+16:16:01 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+16:16:09 INFO  : Disconnected from the channel tcfchan#2.
+16:16:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+16:16:09 INFO  : 'fpga -state' command is executed.
+16:16:09 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+16:16:09 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+16:16:09 INFO  : 'jtag frequency' command is executed.
+16:16:09 INFO  : Context for processor 'microblaze_0' is selected.
+16:16:10 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+16:16:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:16:10 INFO  : Context for processor 'microblaze_0' is selected.
+16:16:10 INFO  : System reset is completed.
+16:16:13 INFO  : 'after 3000' command is executed.
+16:16:13 INFO  : Context for processor 'microblaze_0' is selected.
+16:16:13 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+16:16:13 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+16:16:13 INFO  : Context for processor 'microblaze_0' is selected.
+16:16:13 INFO  : 'con' command is executed.
+16:16:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:16:13 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+16:17:27 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+16:17:30 INFO  : Disconnected from the channel tcfchan#3.
+16:17:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+16:17:31 INFO  : 'fpga -state' command is executed.
+16:17:31 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+16:17:31 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+16:17:31 INFO  : 'jtag frequency' command is executed.
+16:17:31 INFO  : Context for processor 'microblaze_0' is selected.
+16:17:31 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+16:17:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:17:31 INFO  : Context for processor 'microblaze_0' is selected.
+16:17:31 INFO  : System reset is completed.
+16:17:34 INFO  : 'after 3000' command is executed.
+16:17:34 INFO  : Context for processor 'microblaze_0' is selected.
+16:17:34 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+16:17:34 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+16:17:35 INFO  : Context for processor 'microblaze_0' is selected.
+16:17:35 INFO  : 'con' command is executed.
+16:17:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:17:35 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+16:18:30 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+16:18:33 INFO  : Disconnected from the channel tcfchan#4.
+16:18:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+16:18:33 INFO  : 'fpga -state' command is executed.
+16:18:33 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+16:18:33 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+16:18:33 INFO  : 'jtag frequency' command is executed.
+16:18:33 INFO  : Context for processor 'microblaze_0' is selected.
+16:18:34 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+16:18:34 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:18:34 INFO  : Context for processor 'microblaze_0' is selected.
+16:18:34 INFO  : System reset is completed.
+16:18:37 INFO  : 'after 3000' command is executed.
+16:18:37 INFO  : Context for processor 'microblaze_0' is selected.
+16:18:37 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+16:18:37 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+16:18:37 INFO  : Context for processor 'microblaze_0' is selected.
+16:18:37 INFO  : 'con' command is executed.
+16:18:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:18:37 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+19:53:29 INFO  : Disconnected from the channel tcfchan#5.
+21:02:58 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+21:03:02 INFO  : Platform repository initialization has completed.
+21:03:02 INFO  : Registering command handlers for Vitis TCF services
+21:03:03 INFO  : XSCT server has started successfully.
+21:03:03 INFO  : Successfully done setting XSCT server connection channel  
+21:03:03 INFO  : plnx-install-location is set to ''
+21:03:03 INFO  : Successfully done setting workspace for the tool. 
+21:03:03 INFO  : Successfully done query RDI_DATADIR 
+21:10:48 INFO  : Bit file '/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit' is generated.
+21:10:48 INFO  : Connected to target on host 'batcha' and port '3121'.
+21:10:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+21:10:57 INFO  : Device configured successfully with "/home/dimitriosa/Downloads/Project/project_1/project_1.runs/impl_1/download.bit"
+21:12:37 INFO  : Checking for BSP changes to sync application flags for project 'final2_test'...
+21:13:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+21:13:22 INFO  : 'fpga -state' command is executed.
+21:13:23 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+21:13:24 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+21:13:24 INFO  : 'jtag frequency' command is executed.
+21:13:24 INFO  : Context for processor 'microblaze_0' is selected.
+21:13:24 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+21:13:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:13:24 INFO  : Context for processor 'microblaze_0' is selected.
+21:13:24 INFO  : System reset is completed.
+21:13:27 INFO  : 'after 3000' command is executed.
+21:13:27 INFO  : Context for processor 'microblaze_0' is selected.
+21:13:27 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+21:13:27 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+21:13:27 INFO  : Context for processor 'microblaze_0' is selected.
+21:13:27 INFO  : 'con' command is executed.
+21:13:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:13:27 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+21:18:27 INFO  : Disconnected from the channel tcfchan#2.
+21:18:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A0E359" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308A0E359-13822093-0"}' command is executed.
+21:18:27 INFO  : 'fpga -state' command is executed.
+21:18:27 INFO  : Connected through redirection to target on host 'batcha' and port '3121'.
+21:18:27 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A0E359' is selected.
+21:18:27 INFO  : 'jtag frequency' command is executed.
+21:18:27 INFO  : Context for processor 'microblaze_0' is selected.
+21:18:28 INFO  : Hardware design and registers information is loaded from '/home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa'.
+21:18:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:18:28 INFO  : Context for processor 'microblaze_0' is selected.
+21:18:28 INFO  : System reset is completed.
+21:18:31 INFO  : 'after 3000' command is executed.
+21:18:31 INFO  : Context for processor 'microblaze_0' is selected.
+21:18:31 INFO  : The application '/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf' is downloaded to processor 'microblaze_0'.
+21:18:31 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:batcha:3121]
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf
+----------------End of Script----------------
+
+21:18:31 INFO  : Context for processor 'microblaze_0' is selected.
+21:18:31 INFO  : 'con' command is executed.
+21:18:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:18:31 INFO  : Launch script is exported to file '/home/dimitriosa/Downloads/Project/project_1/final2_test_system/_ide/scripts/systemdebugger_final2_test_system_standalone.tcl'
+21:57:11 INFO  : Disconnected from the channel tcfchan#3.
+09:04:14 INFO  : Launching XSCT server: xsct -n  -interactive /home/dimitriosa/Downloads/Project/project_1/temp_xsdb_launch_script.tcl
+09:04:19 INFO  : Platform repository initialization has completed.
+09:04:19 INFO  : Registering command handlers for Vitis TCF services
+09:04:19 INFO  : XSCT server has started successfully.
+09:04:19 INFO  : Successfully done setting XSCT server connection channel  
+09:04:19 INFO  : plnx-install-location is set to ''
+09:04:19 INFO  : Successfully done setting workspace for the tool. 
+09:04:19 INFO  : Successfully done query RDI_DATADIR 

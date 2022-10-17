@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Sep 16 13:28:17 2022
+# Process ID: 107851
+# Current directory: /home/dimitriosa/Downloads/Project/project_1/project_1.runs/design_1_ilmb_v10_0_synth_1
+# Command line: vivado -log design_1_ilmb_v10_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_ilmb_v10_0.tcl
+# Log file: /home/dimitriosa/Downloads/Project/project_1/project_1.runs/design_1_ilmb_v10_0_synth_1/design_1_ilmb_v10_0.vds
+# Journal file: /home/dimitriosa/Downloads/Project/project_1/project_1.runs/design_1_ilmb_v10_0_synth_1/vivado.jou
+# Running On: carvouno3.ics.forth.gr, OS: Linux, CPU Frequency: 2194.842 MHz, CPU Physical cores: 32, Host memory: 168888 MB
+#-----------------------------------------------------------
+source design_1_ilmb_v10_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/dimitriosa/Downloads/Project/project_1/project_1.srcs/sources_1/imports/Project'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2021.2/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_ilmb_v10_0, cache-ID = 3fdcfc7c7b54609c.
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 16 13:28:37 2022...

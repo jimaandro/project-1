@@ -1,0 +1,13 @@
+22:29:23 INFO  : Registering command handlers for SDK TCF services
+22:29:27 INFO  : Launching XSCT server: xsct -n -interactive /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/temp_xsdb_launch_script.tcl
+22:29:29 INFO  : XSCT server has started successfully.
+22:29:29 INFO  : Successfully done setting XSCT server connection channel  
+22:29:33 INFO  : Successfully done setting SDK workspace  
+22:29:33 INFO  : Processing command line option -hwspec /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper.hdf.
+11:21:00 INFO  : Registering command handlers for SDK TCF services
+11:21:01 INFO  : Launching XSCT server: xsct -n -interactive /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/temp_xsdb_launch_script.tcl
+11:21:02 INFO  : XSCT server has started successfully.
+11:21:02 INFO  : Successfully done setting XSCT server connection channel  
+11:21:02 INFO  : Successfully done setting SDK workspace  
+11:21:02 INFO  : Processing command line option -hwspec /home/dimitriosa/Downloads/Project/project_1/project_1.sdk/design_1_wrapper.hdf.
+11:21:02 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
