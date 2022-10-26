@@ -47,7 +47,7 @@
 // DO NOT MODIFY THIS FILE.
 
 
-// IP VLNV: user.org:user:ALUdesign:6.0
+// IP VLNV: user.org:user:ALUdesign:8.0
 // IP Revision: 2
 
 (* X_CORE_INFO = "ALUdesign,Vivado 2021.2" *)

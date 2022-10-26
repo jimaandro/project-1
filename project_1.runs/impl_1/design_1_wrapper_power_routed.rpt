@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
-| Date             : Fri Oct 14 20:58:57 2022
+| Date             : Thu Oct 20 13:14:14 2022
 | Host             : carvouno3.ics.forth.gr running 64-bit AlmaLinux release 8.6 (Sky Tiger)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.662        |
+| Total On-Chip Power (W)  | 0.735        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.183        |
-| Device Static (W)        | 0.479        |
+| Dynamic (W)              | 0.253        |
+| Device Static (W)        | 0.482        |
 | Effective TJA (C/W)      | 1.4          |
-| Max Ambient (C)          | 99.1         |
-| Junction Temperature (C) | 25.9         |
+| Max Ambient (C)          | 99.0         |
+| Junction Temperature (C) | 26.0         |
 | Confidence Level         | Medium       |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,22 +52,22 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.025 |        8 |       --- |             --- |
-| CLB Logic                |     0.015 |    10835 |       --- |             --- |
-|   LUT as Logic           |     0.007 |     3560 |    242400 |            1.47 |
+| Clocks                   |     0.030 |        8 |       --- |             --- |
+| CLB Logic                |     0.015 |    11025 |       --- |             --- |
+|   LUT as Logic           |     0.007 |     3587 |    242400 |            1.48 |
 |   LUT as Shift Register  |     0.005 |      356 |    112800 |            0.32 |
-|   LUT as Distributed RAM |     0.003 |       84 |    112800 |            0.07 |
-|   Register               |    <0.001 |     4855 |    484800 |            1.00 |
+|   LUT as Distributed RAM |     0.002 |       84 |    112800 |            0.07 |
+|   Register               |    <0.001 |     4861 |    484800 |            1.00 |
 |   CARRY8                 |    <0.001 |       83 |     30300 |            0.27 |
-|   F7/F8 Muxes            |    <0.001 |      118 |    242400 |            0.05 |
-|   Others                 |    <0.001 |      815 |       --- |             --- |
-| Signals                  |     0.011 |     8107 |       --- |             --- |
-| Block RAM                |     0.012 |       14 |       600 |            2.33 |
+|   F7/F8 Muxes            |    <0.001 |      122 |    242400 |            0.05 |
+|   Others                 |    <0.001 |      937 |       --- |             --- |
+| Signals                  |     0.032 |    12813 |       --- |             --- |
+| Block RAM                |     0.057 |      134 |       600 |           22.33 |
 | MMCM                     |     0.114 |        1 |        10 |           10.00 |
 | DSPs                     |    <0.001 |        2 |      1920 |            0.10 |
 | I/O                      |     0.004 |        5 |       520 |            0.96 |
-| Static Power             |     0.479 |          |           |                 |
-| Total                    |     0.662 |          |           |                 |
+| Static Power             |     0.482 |          |           |                 |
+| Total                    |     0.735 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -77,10 +77,10 @@ Table of Contents
 +------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source     | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint     |       0.950 |     0.215 |       0.068 |      0.148 |       NA    | Unspecified | NA         |
+| Vccint     |       0.950 |     0.290 |       0.141 |      0.148 |       NA    | Unspecified | NA         |
 | Vccaux     |       1.800 |     0.159 |       0.063 |      0.096 |       NA    | Unspecified | NA         |
 | Vccaux_io  |       1.800 |     0.066 |       0.001 |      0.065 |       NA    | Unspecified | NA         |
-| Vccint_io  |       0.950 |     0.016 |       0.001 |      0.015 |       NA    | Unspecified | NA         |
+| Vccint_io  |       0.950 |     0.016 |       0.001 |      0.016 |       NA    | Unspecified | NA         |
 | Vcco33     |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco25     |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18     |       1.800 |     0.001 |       0.001 |      0.000 |       NA    | Unspecified | NA         |
@@ -88,7 +88,7 @@ Table of Contents
 | Vcco135    |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco12     |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco10     |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vccbram    |       0.950 |     0.011 |       0.000 |      0.011 |       NA    | Unspecified | NA         |
+| Vccbram    |       0.950 |     0.013 |       0.000 |      0.013 |       NA    | Unspecified | NA         |
 | MGTAVcc    |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTAVtt    |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTVccaux  |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -157,27 +157,27 @@ Table of Contents
 +-------------------------------+-----------+
 | Name                          | Power (W) |
 +-------------------------------+-----------+
-| design_1_wrapper              |     0.183 |
+| design_1_wrapper              |     0.253 |
 |   dbg_hub                     |     0.003 |
 |     inst                      |     0.003 |
 |       BSCANID.u_xsdbm_id      |     0.003 |
-|   design_1_i                  |     0.179 |
-|     ALUdesign_1               |     0.010 |
-|       inst                    |     0.010 |
+|   design_1_i                  |     0.249 |
+|     ALUdesign_1               |     0.009 |
+|       inst                    |     0.009 |
 |     axi_bram_ctrl_0           |     0.001 |
 |       U0                      |     0.001 |
 |     axi_uartlite_0            |     0.001 |
 |       U0                      |     0.001 |
 |     blk_mem_gen_0             |     0.002 |
 |       U0                      |     0.002 |
-|     clk_wiz_1                 |     0.119 |
-|       inst                    |     0.119 |
-|     microblaze_0              |     0.015 |
-|       U0                      |     0.015 |
-|     microblaze_0_local_memory |     0.004 |
-|       lmb_bram                |     0.004 |
-|     system_ila_0              |     0.025 |
-|       inst                    |     0.025 |
+|     clk_wiz_1                 |     0.120 |
+|       inst                    |     0.120 |
+|     microblaze_0              |     0.037 |
+|       U0                      |     0.037 |
+|     microblaze_0_local_memory |     0.050 |
+|       lmb_bram                |     0.050 |
+|     system_ila_0              |     0.027 |
+|       inst                    |     0.027 |
 +-------------------------------+-----------+
 
 

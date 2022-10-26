@@ -952,7 +952,7 @@
         }
       },
       "ALUdesign_1": {
-        "vlnv": "user.org:user:ALUdesign:6.0",
+        "vlnv": "user.org:user:ALUdesign:8.0",
         "xci_name": "design_1_ALUdesign_1_0",
         "xci_path": "ip/design_1_ALUdesign_1_0/design_1_ALUdesign_1_0.xci",
         "inst_hier_path": "ALUdesign_1"
@@ -1177,7 +1177,7 @@
               "SEG_ilmb_bram_if_cntlr_Mem": {
                 "address_block": "/microblaze_0_local_memory/ilmb_bram_if_cntlr/SLMB/Mem",
                 "offset": "0x00000000",
-                "range": "32K"
+                "range": "512K"
               }
             }
           }
@@ -1188,7 +1188,7 @@
       "file": {
         "name": "/home/dimitriosa/Downloads/Project/project_1/final2_test/Debug/final2_test.elf",
         "type": "ELF",
-        "checksum": "1393562017",
+        "checksum": "0",
         "IsVisible": "1",
         "ScopedToRef": "design_1",
         "ScopedToCell": [

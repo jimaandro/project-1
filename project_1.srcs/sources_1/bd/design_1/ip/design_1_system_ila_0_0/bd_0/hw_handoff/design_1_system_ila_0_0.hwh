@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Oct 14 20:48:44 2022" VIVADOVERSION="2021.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Oct 20 13:03:17 2022" VIVADOVERSION="2021.2">
 
   <SYSTEMINFO ARCH="kintexu" BOARD="xilinx.com:kcu105:part0:1.7" DEVICE="xcku040" NAME="bd_f60c" PACKAGE="ffva1156" SPEEDGRADE="-2"/>
 

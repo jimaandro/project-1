@@ -21,3 +21,11 @@ platform generate
 bsp reload
 platform generate -domains 
 platform generate
+platform generate
+platform active {design_1_wrapperfinal}
+bsp reload
+platform generate -domains 
+bsp reload
+platform generate -domains 
+platform active {design_1_wrapperfinal}
+platform generate -domains standalone_microblaze_0 

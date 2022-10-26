@@ -739,11 +739,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Oct 14 17:48:44 UTC 2022</spirit:value>
+            <spirit:value>Thu Oct 20 09:40:28 UTC 2022</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:2d9f1e09</spirit:value>
+            <spirit:value>9:71b6fe1c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -754,7 +754,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:2d9f1e09</spirit:value>
+            <spirit:value>9:71b6fe1c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -770,11 +770,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Oct 14 17:48:44 UTC 2022</spirit:value>
+            <spirit:value>Thu Oct 20 09:40:28 UTC 2022</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:2d9f1e09</spirit:value>
+            <spirit:value>9:71b6fe1c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -789,11 +789,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Oct 14 17:48:44 UTC 2022</spirit:value>
+            <spirit:value>Thu Oct 20 09:40:28 UTC 2022</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:662a3ba5</spirit:value>
+            <spirit:value>9:5eb415b0</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -809,11 +809,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Oct 14 17:48:44 UTC 2022</spirit:value>
+            <spirit:value>Thu Oct 20 09:40:28 UTC 2022</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:662a3ba5</spirit:value>
+            <spirit:value>9:5eb415b0</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -827,11 +827,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Oct 14 17:50:11 UTC 2022</spirit:value>
+            <spirit:value>Thu Oct 20 09:42:00 UTC 2022</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:2d9f1e09</spirit:value>
+            <spirit:value>9:71b6fe1c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1053,24 +1053,24 @@
     <spirit:fileSet>
       <spirit:name>xilinx_anylanguagesynthesis_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/a1dc/sources_1/new/ADD_SUB.sv</spirit:name>
+        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/1178/sources_1/new/ADD_SUB.sv</spirit:name>
         <spirit:fileType>systemVerilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/a1dc/sources_1/imports/Project/MUL.sv</spirit:name>
+        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/1178/sources_1/imports/Project/MUL.sv</spirit:name>
         <spirit:fileType>systemVerilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/a1dc/sources_1/new/Normalize.sv</spirit:name>
+        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/1178/sources_1/new/Normalize.sv</spirit:name>
         <spirit:fileType>systemVerilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/a1dc/sources_1/imports/Project/ALU_defines.sv</spirit:name>
+        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/1178/sources_1/imports/Project/ALU_defines.sv</spirit:name>
         <spirit:fileType>systemVerilogSource</spirit:fileType>
         <spirit:isIncludeFile>true</spirit:isIncludeFile>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/a1dc/sources_1/imports/Project/ALUdesign.sv</spirit:name>
+        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/1178/sources_1/imports/Project/ALUdesign.sv</spirit:name>
         <spirit:fileType>systemVerilogSource</spirit:fileType>
       </spirit:file>
     </spirit:fileSet>
@@ -1085,24 +1085,24 @@
     <spirit:fileSet>
       <spirit:name>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/a1dc/sources_1/new/ADD_SUB.sv</spirit:name>
+        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/1178/sources_1/new/ADD_SUB.sv</spirit:name>
         <spirit:fileType>systemVerilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/a1dc/sources_1/imports/Project/MUL.sv</spirit:name>
+        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/1178/sources_1/imports/Project/MUL.sv</spirit:name>
         <spirit:fileType>systemVerilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/a1dc/sources_1/new/Normalize.sv</spirit:name>
+        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/1178/sources_1/new/Normalize.sv</spirit:name>
         <spirit:fileType>systemVerilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/a1dc/sources_1/imports/Project/ALU_defines.sv</spirit:name>
+        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/1178/sources_1/imports/Project/ALU_defines.sv</spirit:name>
         <spirit:fileType>systemVerilogSource</spirit:fileType>
         <spirit:isIncludeFile>true</spirit:isIncludeFile>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/a1dc/sources_1/imports/Project/ALUdesign.sv</spirit:name>
+        <spirit:name>../../../../../../project_1.gen/sources_1/bd/design_1/ipshared/1178/sources_1/imports/Project/ALUdesign.sv</spirit:name>
         <spirit:fileType>systemVerilogSource</spirit:fileType>
       </spirit:file>
     </spirit:fileSet>
@@ -1151,7 +1151,7 @@
       </spirit:file>
     </spirit:fileSet>
   </spirit:fileSets>
-  <spirit:description>ALUdesign_v6_0</spirit:description>
+  <spirit:description>ALUdesign_v8_0</spirit:description>
   <spirit:parameters>
     <spirit:parameter>
       <spirit:name>Component_Name</spirit:name>
@@ -1160,20 +1160,20 @@
   </spirit:parameters>
   <spirit:vendorExtensions>
     <xilinx:coreExtensions>
-      <xilinx:displayName>ALUdesign_v6_0</xilinx:displayName>
+      <xilinx:displayName>ALUdesign_v8_0</xilinx:displayName>
       <xilinx:definitionSource>package_project</xilinx:definitionSource>
       <xilinx:coreRevision>2</xilinx:coreRevision>
       <xilinx:tags>
-        <xilinx:tag xilinx:name="ui.data.coregen.df@4af1abae_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU.srcs</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.df@3a4c2105_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU.srcs</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.df@2e4da64c_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU.srcs</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.df@51193dcc_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU.srcs</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.df@3c011892_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU.srcs</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.df@1cc5959a_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU.srcs</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.df@34f01fe0_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU.srcs</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.df@365ae364_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU.srcs</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.df@32689236_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU.srcs</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.df@1a197953_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU.srcs</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@b5b40be_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU/project_ALU.srcs</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4877d581_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU/project_ALU.srcs</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1a4f9f0_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU/project_ALU.srcs</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@ea6fcbd_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU/project_ALU.srcs</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@51dcfa5d_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU/project_ALU.srcs</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@43426562_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU/project_ALU.srcs</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4be769f2_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU/project_ALU.srcs</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@461b16e4_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU/project_ALU.srcs</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@71f3b065_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU/project_ALU.srcs</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1549b742_ARCHIVE_LOCATION">/home/dimitriosa/Downloads/Project/project_ALU/project_ALU/project_ALU.srcs</xilinx:tag>
       </xilinx:tags>
       <xilinx:configElementInfos>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLK.ASSOCIATED_BUSIF" xilinx:valuePermission="bd_and_user"/>
@@ -1237,7 +1237,7 @@
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2021.2</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="6d37207e"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="dc975f15"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="072d1bf2"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="166dbd70"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="d417193d"/>
     </xilinx:packagingInfo>

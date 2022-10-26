@@ -110,10 +110,10 @@
   "../../../bd/design_1/ip/design_1_system_ila_0_0/sim/design_1_system_ila_0_0.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib -sv \
-  "../../../bd/design_1/ipshared/a1dc/sources_1/new/ADD_SUB.sv" \
-  "../../../bd/design_1/ipshared/a1dc/sources_1/imports/Project/MUL.sv" \
-  "../../../bd/design_1/ipshared/a1dc/sources_1/new/Normalize.sv" \
-  "../../../bd/design_1/ipshared/a1dc/sources_1/imports/Project/ALUdesign.sv" \
+  "../../../bd/design_1/ipshared/1178/sources_1/new/ADD_SUB.sv" \
+  "../../../bd/design_1/ipshared/1178/sources_1/imports/Project/MUL.sv" \
+  "../../../bd/design_1/ipshared/1178/sources_1/new/Normalize.sv" \
+  "../../../bd/design_1/ipshared/1178/sources_1/imports/Project/ALUdesign.sv" \
   "../../../bd/design_1/ip/design_1_ALUdesign_1_0/sim/design_1_ALUdesign_1_0.sv" \
 -endlib
 -makelib xcelium_lib/axi_protocol_converter_v2_1_25 \

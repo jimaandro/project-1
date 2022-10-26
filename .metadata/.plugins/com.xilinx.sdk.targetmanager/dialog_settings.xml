@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="devices_info_batcha" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent JTAG-SMT2NC 210308A0E359&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-JTAG-SMT2NC-210308A0E359-13822093-0&quot;}}]}"/>
+	<item key="final2_test_system-bitFile" value="/home/dimitriosa/Downloads/forth_projects/project_1/final2_test/bits.bit"/>
+	<item key="final2_test_system-bmmFile" value="/home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/export/design_1_wrapperfinal/hw/design_1_wrapperfinal.mmi"/>
+	<item key="final2_test_system-target" value="batcha"/>
+	<item key="final2_test_system-device" value="Auto Detect"/>
+	<item key="final2_test_system-partial_bit" value="false"/>
+	<item key="final2_test_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="final2_test_system"/>
+	<item key="final2_test_system-microblaze_0-initElf" value="bootloop"/>
+</section>

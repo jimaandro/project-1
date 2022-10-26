@@ -1556,3 +1556,1079 @@ TRACE::2022-10-10.19:41:10::SCWMssOS::Checking the sw design at  /home/dimitrios
 TRACE::2022-10-10.19:41:10::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
 
 TRACE::2022-10-10.19:41:10::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-19.11:28:03::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:03::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:03::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:04::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-19.11:28:04::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:04::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-19.11:28:04::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-10-19.11:28:05::SCWPlatform::Opened new HwDB with name design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWReader::Active system found as  design_1_wrapperfinal
+TRACE::2022-10-19.11:28:05::SCWReader::Handling sysconfig design_1_wrapperfinal
+TRACE::2022-10-19.11:28:05::SCWDomain::checking for install qemu data   : 
+TRACE::2022-10-19.11:28:05::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-19.11:28:05::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-19.11:28:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-19.11:28:05::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-19.11:28:05::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-19.11:28:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-19.11:28:05::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-19.11:28:05::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-19.11:28:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-19.11:28:05::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-19.11:28:05::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-19.11:28:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-19.11:28:05::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-19.11:28:05::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-10-19.11:28:05::SCWMssOS::No sw design opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-19.11:28:05::SCWMssOS::mss exists loading the mss file  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-19.11:28:05::SCWMssOS::Opened the sw design from mss  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-19.11:28:05::SCWMssOS::Adding the swdes entry /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-10-19.11:28:05::SCWMssOS::updating the scw layer about changes
+TRACE::2022-10-19.11:28:05::SCWMssOS::Opened the sw design.  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-19.11:28:05::SCWMssOS::Saving the mss changes /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-19.11:28:05::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-19.11:28:05::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-19.11:28:05::SCWMssOS::Commit changes completed.
+TRACE::2022-10-19.11:28:05::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-10-19.11:28:05::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-10-19.11:28:05::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-19.11:28:05::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-19.11:28:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-19.11:28:05::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-19.11:28:05::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-19.11:28:05::SCWReader::No isolation master present  
+LOG::2022-10-19.11:28:05::SCWPlatform::Started generating the artifacts platform design_1_wrapperfinal
+TRACE::2022-10-19.11:28:05::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-10-19.11:28:05::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapperfinal
+LOG::2022-10-19.11:28:05::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-10-19.11:28:05::SCWSystem::Not a boot domain 
+LOG::2022-10-19.11:28:05::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-10-19.11:28:05::SCWDomain::Generating domain artifcats
+TRACE::2022-10-19.11:28:05::SCWMssOS::Generating standalone artifcats
+TRACE::2022-10-19.11:28:05::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-10-19.11:28:05::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-19.11:28:05::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-19.11:28:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-19.11:28:05::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-19.11:28:05::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-19.11:28:05::SCWMssOS::Completed writing the mss file at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-10-19.11:28:05::SCWMssOS::Mss edits present, copying mssfile into export location /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-19.11:28:05::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-10-19.11:28:05::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-10-19.11:28:05::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2022-10-19.11:28:05::SCWMssOS::doing bsp build ... 
+TRACE::2022-10-19.11:28:05::SCWMssOS::System Command Ran  cd  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp ; bash -c "make  " 
+TRACE::2022-10-19.11:28:05::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::make -j 30 --no-print-directory par_libs
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_14/src
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_7/src
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-10-19.11:28:05::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-10-19.11:28:05::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v7_6/src
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-10-19.11:28:05::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-10-19.11:28:05::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2022-10-19.11:28:05::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2022-10-19.11:28:05::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-10-19.11:28:05::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-10-19.11:28:05::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::Running Make libs in microblaze_0/libsrc/cpu_v2_14/src
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-10-19.11:28:05::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-10-19.11:28:05::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::Running Make libs in microblaze_0/libsrc/bram_v4_7/src
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::Running Make libs in microblaze_0/libsrc/standalone_v7_6/src
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::Running Make libs in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-10-19.11:28:05::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-10-19.11:28:05::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2022-10-19.11:28:05::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2022-10-19.11:28:05::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-10-19.11:28:05::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2022-10-19.11:28:05::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/microblaze_init_icache_range.o microblaze_0/lib/fcntl.o microblaze_0/lib/x
+TRACE::2022-10-19.11:28:05::SCWMssOS::bram_intr.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze
+TRACE::2022-10-19.11:28:05::SCWMssOS::_enable_interrupts.o microblaze_0/lib/xil_assert.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/microblaze_flush_dcache.o m
+TRACE::2022-10-19.11:28:05::SCWMssOS::icroblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_exception.o microblaze_0/lib/mic
+TRACE::2022-10-19.11:28:05::SCWMssOS::roblaze_invalidate_cache_ext_range.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/errno.o microblaze_0/lib/microblaze_in
+TRACE::2022-10-19.11:28:05::SCWMssOS::it_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/microblaze_flush_dcache_range.o microb
+TRACE::2022-10-19.11:28:05::SCWMssOS::laze_0/lib/xbram.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_interrupts
+TRACE::2022-10-19.11:28:05::SCWMssOS::_g.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/xil_util.o microblaze_0/lib/xuart
+TRACE::2022-10-19.11:28:05::SCWMssOS::lite_selftest.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2022-10-19.11:28:05::SCWMssOS::microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/microblaze_invalidate_dcache
+TRACE::2022-10-19.11:28:05::SCWMssOS::_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/outbyte.o microblaze_0/lib/xuartlite.o microblaze_0/l
+TRACE::2022-10-19.11:28:05::SCWMssOS::ib/xio.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/microblaze_exception_handler.o micro
+TRACE::2022-10-19.11:28:05::SCWMssOS::blaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_scrub.o microblaze
+TRACE::2022-10-19.11:28:05::SCWMssOS::_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_interrupt_handle
+TRACE::2022-10-19.11:28:05::SCWMssOS::r.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib/microblaze_invalidate_d
+TRACE::2022-10-19.11:28:05::SCWMssOS::cache.o microblaze_0/lib/pvr.o microblaze_0/lib/print.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xil_testio.o microblaze_0/l
+TRACE::2022-10-19.11:28:05::SCWMssOS::ib/xil_cache.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/microblaze_flush_cache_e
+TRACE::2022-10-19.11:28:05::SCWMssOS::xt.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/_exit.o microblaze_0/lib/xil_mem.o microblaze_0/lib/microbla
+TRACE::2022-10-19.11:28:05::SCWMssOS::ze_disable_exceptions.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xplatform_info.o
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::Finished building libraries
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::Copying to export directory.
+TRACE::2022-10-19.11:28:05::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-10-19.11:28:05::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-10-19.11:28:05::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-10-19.11:28:05::SCWSystem::Completed Processing the sysconfig design_1_wrapperfinal
+LOG::2022-10-19.11:28:05::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapperfinal
+TRACE::2022-10-19.11:28:05::SCWPlatform::Started preparing the platform 
+TRACE::2022-10-19.11:28:05::SCWSystem::Writing the bif file for system config design_1_wrapperfinal
+TRACE::2022-10-19.11:28:05::SCWSystem::dir created 
+TRACE::2022-10-19.11:28:05::SCWSystem::Writing the bif 
+TRACE::2022-10-19.11:28:05::SCWPlatform::Started writing the spfm file 
+TRACE::2022-10-19.11:28:05::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-10-19.11:28:05::SCWPlatform::Completed generating the platform
+TRACE::2022-10-19.11:28:05::SCWMssOS::Saving the mss changes /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-19.11:28:05::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-19.11:28:05::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-19.11:28:05::SCWMssOS::Commit changes completed.
+TRACE::2022-10-19.11:28:05::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-19.11:28:05::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-19.11:28:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-19.11:28:05::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-19.11:28:05::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-19.11:28:05::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapperfinal",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapperfinal",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapperfinal.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapperfinal",
+	"systems":	[{
+			"systemName":	"design_1_wrapperfinal",
+			"systemDesc":	"design_1_wrapperfinal",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapperfinal",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"efbfaf248a82d670f904264e5e7ddd22",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-10-19.11:28:05::SCWPlatform::updated the xpfm file.
+TRACE::2022-10-19.11:28:05::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-19.11:28:05::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-19.11:28:05::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-19.11:28:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-19.11:28:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-19.11:28:05::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-19.11:28:05::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-19.11:28:05::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:02::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:02::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:02::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:03::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-20.12:55:03::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:03::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-20.12:55:03::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-10-20.12:55:04::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2022-10-20.12:55:04::SCWReader::Active system found as  design_1_wrapperfinal
+TRACE::2022-10-20.12:55:04::SCWReader::Handling sysconfig design_1_wrapperfinal
+TRACE::2022-10-20.12:55:04::SCWDomain::checking for install qemu data   : 
+TRACE::2022-10-20.12:55:04::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-20.12:55:04::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-20.12:55:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-20.12:55:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-20.12:55:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-20.12:55:04::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-20.12:55:04::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-20.12:55:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-20.12:55:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-20.12:55:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-20.12:55:04::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-20.12:55:04::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-20.12:55:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-20.12:55:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-20.12:55:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-20.12:55:04::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-20.12:55:04::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-20.12:55:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-20.12:55:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-20.12:55:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-20.12:55:04::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:04::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-10-20.12:55:04::SCWMssOS::No sw design opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:04::SCWMssOS::mss exists loading the mss file  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:04::SCWMssOS::Opened the sw design from mss  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:04::SCWMssOS::Adding the swdes entry /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-10-20.12:55:04::SCWMssOS::updating the scw layer about changes
+TRACE::2022-10-20.12:55:04::SCWMssOS::Opened the sw design.  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:04::SCWMssOS::Saving the mss changes /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:04::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-20.12:55:04::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-20.12:55:04::SCWMssOS::Commit changes completed.
+TRACE::2022-10-20.12:55:04::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-10-20.12:55:04::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-10-20.12:55:04::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-20.12:55:04::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:04::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-20.12:55:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-20.12:55:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-20.12:55:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-20.12:55:04::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:04::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-20.12:55:04::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:04::SCWReader::No isolation master present  
+TRACE::2022-10-20.12:55:28::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:28::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:28::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:28::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-20.12:55:28::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:28::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-20.12:55:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-20.12:55:28::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-20.12:55:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-20.12:55:28::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:28::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-20.12:55:28::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:28::SCWMssOS::In reload Mss file.
+TRACE::2022-10-20.12:55:28::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:28::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:28::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:28::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-20.12:55:28::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:28::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-20.12:55:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-20.12:55:28::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-20.12:55:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-20.12:55:28::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:28::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-10-20.12:55:28::SCWMssOS::No sw design opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:28::SCWMssOS::mss exists loading the mss file  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:28::SCWMssOS::Opened the sw design from mss  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:28::SCWMssOS::Adding the swdes entry /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-10-20.12:55:28::SCWMssOS::updating the scw layer about changes
+TRACE::2022-10-20.12:55:28::SCWMssOS::Opened the sw design.  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:28::SCWMssOS::Saving the mss changes /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:28::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-20.12:55:28::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-20.12:55:28::SCWMssOS::Commit changes completed.
+TRACE::2022-10-20.12:55:28::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:28::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:28::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:28::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-20.12:55:28::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.12:55:28::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-20.12:55:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-20.12:55:28::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-20.12:55:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-20.12:55:28::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:28::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-20.12:55:28::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.12:55:28::SCWMssOS::Removing the swdes entry for  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+LOG::2022-10-20.13:17:15::SCWPlatform::Started generating the artifacts platform design_1_wrapperfinal
+TRACE::2022-10-20.13:17:15::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-10-20.13:17:15::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapperfinal
+LOG::2022-10-20.13:17:15::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-10-20.13:17:15::SCWSystem::Not a boot domain 
+LOG::2022-10-20.13:17:15::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-10-20.13:17:15::SCWDomain::Generating domain artifcats
+TRACE::2022-10-20.13:17:15::SCWMssOS::Generating standalone artifcats
+TRACE::2022-10-20.13:17:15::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-10-20.13:17:15::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:17:15::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:17:15::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:17:15::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-20.13:17:15::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:17:15::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-20.13:17:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-20.13:17:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-20.13:17:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-20.13:17:15::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:17:15::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-10-20.13:17:15::SCWMssOS::No sw design opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:17:15::SCWMssOS::mss exists loading the mss file  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:17:15::SCWMssOS::Opened the sw design from mss  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:17:15::SCWMssOS::Adding the swdes entry /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-10-20.13:17:15::SCWMssOS::updating the scw layer about changes
+TRACE::2022-10-20.13:17:15::SCWMssOS::Opened the sw design.  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:17:15::SCWMssOS::Completed writing the mss file at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-10-20.13:17:15::SCWMssOS::Mss edits present, copying mssfile into export location /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:17:15::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-10-20.13:17:15::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-10-20.13:17:15::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2022-10-20.13:17:15::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-10-20.13:17:15::SCWMssOS::Copying to export directory.
+TRACE::2022-10-20.13:17:15::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-10-20.13:17:15::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-10-20.13:17:15::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-10-20.13:17:15::SCWSystem::Completed Processing the sysconfig design_1_wrapperfinal
+LOG::2022-10-20.13:17:15::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapperfinal
+TRACE::2022-10-20.13:17:15::SCWPlatform::Started preparing the platform 
+TRACE::2022-10-20.13:17:15::SCWSystem::Writing the bif file for system config design_1_wrapperfinal
+TRACE::2022-10-20.13:17:15::SCWSystem::dir created 
+TRACE::2022-10-20.13:17:15::SCWSystem::Writing the bif 
+TRACE::2022-10-20.13:17:15::SCWPlatform::Started writing the spfm file 
+TRACE::2022-10-20.13:17:15::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-10-20.13:17:15::SCWPlatform::Completed generating the platform
+TRACE::2022-10-20.13:17:15::SCWMssOS::Saving the mss changes /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:17:15::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-20.13:17:15::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-20.13:17:15::SCWMssOS::Commit changes completed.
+TRACE::2022-10-20.13:17:15::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:17:15::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:17:15::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:17:15::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-20.13:17:15::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:17:15::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-20.13:17:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-20.13:17:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-20.13:17:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-20.13:17:15::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:17:15::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-20.13:17:15::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:17:15::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapperfinal",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapperfinal",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapperfinal.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapperfinal",
+	"systems":	[{
+			"systemName":	"design_1_wrapperfinal",
+			"systemDesc":	"design_1_wrapperfinal",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapperfinal",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"efbfaf248a82d670f904264e5e7ddd22",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-10-20.13:17:15::SCWPlatform::updated the xpfm file.
+TRACE::2022-10-20.13:17:15::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:17:15::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:17:15::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:17:15::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-20.13:17:15::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:17:15::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-20.13:17:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-20.13:17:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-20.13:17:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-20.13:17:15::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:17:15::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-20.13:17:15::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:17:55::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:17:55::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:17:55::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:17:55::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-20.13:17:55::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:17:55::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-20.13:17:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-20.13:17:55::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-20.13:17:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-20.13:17:55::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:17:55::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-20.13:17:55::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:19:32::SCWMssOS::In reload Mss file.
+TRACE::2022-10-20.13:19:32::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:19:32::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:19:32::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:19:32::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-20.13:19:32::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:19:32::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-20.13:19:32::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-20.13:19:32::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-20.13:19:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-20.13:19:32::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:19:32::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-10-20.13:19:32::SCWMssOS::No sw design opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:19:32::SCWMssOS::mss exists loading the mss file  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:19:32::SCWMssOS::Opened the sw design from mss  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:19:32::SCWMssOS::Adding the swdes entry /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-10-20.13:19:32::SCWMssOS::updating the scw layer about changes
+TRACE::2022-10-20.13:19:32::SCWMssOS::Opened the sw design.  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:19:32::SCWMssOS::Saving the mss changes /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:19:32::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-20.13:19:32::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-20.13:19:32::SCWMssOS::Commit changes completed.
+TRACE::2022-10-20.13:19:32::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:19:32::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:19:32::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:19:32::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-20.13:19:32::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-20.13:19:32::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-20.13:19:32::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-20.13:19:32::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-20.13:19:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-20.13:19:32::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:19:32::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-20.13:19:32::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-20.13:19:32::SCWMssOS::Removing the swdes entry for  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.12:45:37::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:37::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:37::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-21.12:45:38::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-21.12:45:38::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-10-21.12:45:38::SCWPlatform::Opened new HwDB with name design_1_wrapper
+TRACE::2022-10-21.12:45:38::SCWReader::Active system found as  design_1_wrapperfinal
+TRACE::2022-10-21.12:45:38::SCWReader::Handling sysconfig design_1_wrapperfinal
+TRACE::2022-10-21.12:45:38::SCWDomain::checking for install qemu data   : 
+TRACE::2022-10-21.12:45:38::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-21.12:45:38::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-21.12:45:38::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-21.12:45:38::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-21.12:45:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.12:45:38::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-21.12:45:38::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-21.12:45:38::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-21.12:45:38::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-21.12:45:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.12:45:38::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-21.12:45:38::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-21.12:45:38::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-21.12:45:38::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-21.12:45:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.12:45:38::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-21.12:45:38::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-21.12:45:38::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-21.12:45:38::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-21.12:45:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.12:45:38::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.12:45:38::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-10-21.12:45:38::SCWMssOS::No sw design opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.12:45:38::SCWMssOS::mss exists loading the mss file  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.12:45:38::SCWMssOS::Opened the sw design from mss  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.12:45:38::SCWMssOS::Adding the swdes entry /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-10-21.12:45:38::SCWMssOS::updating the scw layer about changes
+TRACE::2022-10-21.12:45:38::SCWMssOS::Opened the sw design.  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.12:45:38::SCWMssOS::Saving the mss changes /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.12:45:38::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-21.12:45:38::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-21.12:45:38::SCWMssOS::Commit changes completed.
+TRACE::2022-10-21.12:45:38::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-10-21.12:45:38::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-10-21.12:45:38::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-21.12:45:38::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-21.12:45:38::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-21.12:45:38::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-21.12:45:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.12:45:38::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.12:45:38::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.12:45:38::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.12:45:38::SCWReader::No isolation master present  
+LOG::2022-10-21.12:45:38::SCWPlatform::Started generating the artifacts platform design_1_wrapperfinal
+TRACE::2022-10-21.12:45:38::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-10-21.12:45:38::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapperfinal
+LOG::2022-10-21.12:45:38::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-10-21.12:45:38::SCWSystem::Not a boot domain 
+LOG::2022-10-21.12:45:38::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-10-21.12:45:38::SCWDomain::Generating domain artifcats
+TRACE::2022-10-21.12:45:38::SCWMssOS::Generating standalone artifcats
+TRACE::2022-10-21.12:45:38::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-10-21.12:45:38::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-21.12:45:38::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:38::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-21.12:45:38::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-21.12:45:38::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-21.12:45:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.12:45:38::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.12:45:38::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.12:45:38::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.12:45:38::SCWMssOS::Completed writing the mss file at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-10-21.12:45:38::SCWMssOS::Mss edits present, copying mssfile into export location /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.12:45:38::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-10-21.12:45:38::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-10-21.12:45:38::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2022-10-21.12:45:38::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-10-21.12:45:38::SCWMssOS::Copying to export directory.
+TRACE::2022-10-21.12:45:39::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-10-21.12:45:39::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-10-21.12:45:39::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-10-21.12:45:39::SCWSystem::Completed Processing the sysconfig design_1_wrapperfinal
+LOG::2022-10-21.12:45:39::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapperfinal
+TRACE::2022-10-21.12:45:39::SCWPlatform::Started preparing the platform 
+TRACE::2022-10-21.12:45:39::SCWSystem::Writing the bif file for system config design_1_wrapperfinal
+TRACE::2022-10-21.12:45:39::SCWSystem::dir created 
+TRACE::2022-10-21.12:45:39::SCWSystem::Writing the bif 
+TRACE::2022-10-21.12:45:39::SCWPlatform::Started writing the spfm file 
+TRACE::2022-10-21.12:45:39::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-10-21.12:45:39::SCWPlatform::Completed generating the platform
+TRACE::2022-10-21.12:45:39::SCWMssOS::Saving the mss changes /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.12:45:39::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-21.12:45:39::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-21.12:45:39::SCWMssOS::Commit changes completed.
+TRACE::2022-10-21.12:45:39::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:39::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:39::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:39::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-21.12:45:39::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:39::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-21.12:45:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-21.12:45:39::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-21.12:45:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.12:45:39::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.12:45:39::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.12:45:39::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.12:45:39::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapperfinal",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapperfinal",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapperfinal.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapperfinal",
+	"systems":	[{
+			"systemName":	"design_1_wrapperfinal",
+			"systemDesc":	"design_1_wrapperfinal",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapperfinal",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"efbfaf248a82d670f904264e5e7ddd22",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-10-21.12:45:39::SCWPlatform::updated the xpfm file.
+TRACE::2022-10-21.12:45:39::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:39::SCWPlatform::DSA given /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:39::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:39::SCWPlatform::DSA directory /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-21.12:45:39::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-21.12:45:39::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-21.12:45:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-21.12:45:39::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-21.12:45:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.12:45:39::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.12:45:39::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.12:45:39::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/Project/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-26.11:34:52::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:52::SCWPlatform::DSA given /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:52::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:53::SCWPlatform::DSA directory /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-26.11:34:53::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:53::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-26.11:34:53::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-10-26.11:34:54::SCWPlatform::Opened new HwDB with name design_1_wrapper
+TRACE::2022-10-26.11:34:54::SCWReader::Active system found as  design_1_wrapperfinal
+TRACE::2022-10-26.11:34:54::SCWReader::Handling sysconfig design_1_wrapperfinal
+TRACE::2022-10-26.11:34:54::SCWDomain::checking for install qemu data   : 
+TRACE::2022-10-26.11:34:54::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform::DSA given /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform::DSA directory /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-26.11:34:54::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-26.11:34:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-26.11:34:54::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-26.11:34:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-26.11:34:54::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform::DSA given /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform::DSA directory /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-26.11:34:54::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-26.11:34:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-26.11:34:54::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-26.11:34:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-26.11:34:54::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform::DSA given /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform::DSA directory /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-26.11:34:54::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-26.11:34:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-26.11:34:54::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-26.11:34:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-26.11:34:54::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform::DSA given /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform::DSA directory /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-26.11:34:54::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-26.11:34:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-26.11:34:54::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-26.11:34:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-26.11:34:54::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-26.11:34:54::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-10-26.11:34:54::SCWMssOS::No sw design opened at  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-26.11:34:54::SCWMssOS::mss exists loading the mss file  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-26.11:34:54::SCWMssOS::Opened the sw design from mss  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-26.11:34:54::SCWMssOS::Adding the swdes entry /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-10-26.11:34:54::SCWMssOS::updating the scw layer about changes
+TRACE::2022-10-26.11:34:54::SCWMssOS::Opened the sw design.  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-26.11:34:54::SCWMssOS::Saving the mss changes /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-26.11:34:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-26.11:34:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-26.11:34:54::SCWMssOS::Commit changes completed.
+TRACE::2022-10-26.11:34:54::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-10-26.11:34:54::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-10-26.11:34:54::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform::DSA given /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform::DSA directory /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-26.11:34:54::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:34:54::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-26.11:34:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-26.11:34:54::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-26.11:34:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-26.11:34:54::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-26.11:34:54::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-26.11:34:54::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-26.11:34:54::SCWReader::No isolation master present  
+LOG::2022-10-26.11:41:21::SCWPlatform::Started generating the artifacts platform design_1_wrapperfinal
+TRACE::2022-10-26.11:41:21::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-10-26.11:41:21::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapperfinal
+LOG::2022-10-26.11:41:21::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-10-26.11:41:21::SCWSystem::Not a boot domain 
+LOG::2022-10-26.11:41:21::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-10-26.11:41:21::SCWDomain::Generating domain artifcats
+TRACE::2022-10-26.11:41:21::SCWMssOS::Generating standalone artifcats
+TRACE::2022-10-26.11:41:21::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-10-26.11:41:21::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:41:21::SCWPlatform::DSA given /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:41:21::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:41:21::SCWPlatform::DSA directory /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-26.11:41:21::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:41:21::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-26.11:41:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-26.11:41:21::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-26.11:41:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-26.11:41:21::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-26.11:41:21::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-26.11:41:21::SCWMssOS::Completed writing the mss file at /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-10-26.11:41:21::SCWMssOS::Mss edits present, copying mssfile into export location /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-26.11:41:21::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-10-26.11:41:21::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-10-26.11:41:21::SCWDomain::Building the domain :  standalone_microblaze_0
+TRACE::2022-10-26.11:41:21::SCWMssOS::doing bsp build ... 
+TRACE::2022-10-26.11:41:21::SCWMssOS::System Command Ran  cd  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp ; bash -c "make  " 
+TRACE::2022-10-26.11:41:21::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::make -j 30 --no-print-directory par_libs
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_14/src
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_7/src
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-10-26.11:41:21::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-10-26.11:41:21::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-10-26.11:41:21::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-10-26.11:41:21::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v7_6/src
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2022-10-26.11:41:21::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2022-10-26.11:41:21::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-10-26.11:41:21::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-10-26.11:41:21::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::Running Make libs in microblaze_0/libsrc/cpu_v2_14/src
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-10-26.11:41:21::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-10-26.11:41:21::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::Running Make libs in microblaze_0/libsrc/bram_v4_7/src
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-10-26.11:41:21::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-10-26.11:41:21::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::Running Make libs in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-10-26.11:41:21::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2022-10-26.11:41:21::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::Running Make libs in microblaze_0/libsrc/standalone_v7_6/src
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2022-10-26.11:41:21::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2022-10-26.11:41:21::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/microblaze_init_icache_range.o microblaze_0/lib/fcntl.o microblaze_0/lib/x
+TRACE::2022-10-26.11:41:21::SCWMssOS::bram_intr.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze
+TRACE::2022-10-26.11:41:21::SCWMssOS::_enable_interrupts.o microblaze_0/lib/xil_assert.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/microblaze_flush_dcache.o m
+TRACE::2022-10-26.11:41:21::SCWMssOS::icroblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_exception.o microblaze_0/lib/mic
+TRACE::2022-10-26.11:41:21::SCWMssOS::roblaze_invalidate_cache_ext_range.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/errno.o microblaze_0/lib/microblaze_in
+TRACE::2022-10-26.11:41:21::SCWMssOS::it_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/microblaze_flush_dcache_range.o microb
+TRACE::2022-10-26.11:41:21::SCWMssOS::laze_0/lib/xbram.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_interrupts
+TRACE::2022-10-26.11:41:21::SCWMssOS::_g.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/xil_util.o microblaze_0/lib/xuart
+TRACE::2022-10-26.11:41:21::SCWMssOS::lite_selftest.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2022-10-26.11:41:21::SCWMssOS::microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/microblaze_invalidate_dcache
+TRACE::2022-10-26.11:41:21::SCWMssOS::_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/outbyte.o microblaze_0/lib/xuartlite.o microblaze_0/l
+TRACE::2022-10-26.11:41:21::SCWMssOS::ib/xio.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/microblaze_exception_handler.o micro
+TRACE::2022-10-26.11:41:21::SCWMssOS::blaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_scrub.o microblaze
+TRACE::2022-10-26.11:41:21::SCWMssOS::_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_interrupt_handle
+TRACE::2022-10-26.11:41:21::SCWMssOS::r.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib/microblaze_invalidate_d
+TRACE::2022-10-26.11:41:21::SCWMssOS::cache.o microblaze_0/lib/pvr.o microblaze_0/lib/print.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xil_testio.o microblaze_0/l
+TRACE::2022-10-26.11:41:21::SCWMssOS::ib/xil_cache.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/microblaze_flush_cache_e
+TRACE::2022-10-26.11:41:21::SCWMssOS::xt.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/_exit.o microblaze_0/lib/xil_mem.o microblaze_0/lib/microbla
+TRACE::2022-10-26.11:41:21::SCWMssOS::ze_disable_exceptions.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xplatform_info.o
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::Finished building libraries
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::Copying to export directory.
+TRACE::2022-10-26.11:41:21::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-10-26.11:41:21::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-10-26.11:41:21::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-10-26.11:41:21::SCWSystem::Completed Processing the sysconfig design_1_wrapperfinal
+LOG::2022-10-26.11:41:21::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapperfinal
+TRACE::2022-10-26.11:41:21::SCWPlatform::Started preparing the platform 
+TRACE::2022-10-26.11:41:21::SCWSystem::Writing the bif file for system config design_1_wrapperfinal
+TRACE::2022-10-26.11:41:21::SCWSystem::dir created 
+TRACE::2022-10-26.11:41:21::SCWSystem::Writing the bif 
+TRACE::2022-10-26.11:41:21::SCWPlatform::Started writing the spfm file 
+TRACE::2022-10-26.11:41:21::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-10-26.11:41:21::SCWPlatform::Completed generating the platform
+TRACE::2022-10-26.11:41:21::SCWMssOS::Saving the mss changes /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-26.11:41:21::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-26.11:41:21::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-26.11:41:21::SCWMssOS::Commit changes completed.
+TRACE::2022-10-26.11:41:21::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:41:21::SCWPlatform::DSA given /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:41:21::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:41:21::SCWPlatform::DSA directory /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-26.11:41:21::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:41:21::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-26.11:41:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-26.11:41:21::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-26.11:41:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-26.11:41:21::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-26.11:41:21::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-26.11:41:21::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapperfinal",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapperfinal",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapperfinal.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapperfinal",
+	"systems":	[{
+			"systemName":	"design_1_wrapperfinal",
+			"systemDesc":	"design_1_wrapperfinal",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapperfinal",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"efbfaf248a82d670f904264e5e7ddd22",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-10-26.11:41:21::SCWPlatform::updated the xpfm file.
+TRACE::2022-10-26.11:41:21::SCWPlatform::Trying to open the hw design at /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:41:21::SCWPlatform::DSA given /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:41:21::SCWPlatform::DSA absoulate path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:41:21::SCWPlatform::DSA directory /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw
+TRACE::2022-10-26.11:41:21::SCWPlatform:: Platform Path /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/hw/design_1_wrapperfinal.xsa
+TRACE::2022-10-26.11:41:21::SCWPlatform:: Unique name xilinx:kc705::0.0
+TRACE::2022-10-26.11:41:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2022-10-26.11:41:21::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2022-10-26.11:41:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-26.11:41:21::SCWMssOS::Checking the sw design at  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-10-26.11:41:21::SCWMssOS::DEBUG:  swdes dump  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-26.11:41:21::SCWMssOS::Sw design exists and opened at  /home/dimitriosa/Downloads/forth_projects/project_1/design_1_wrapperfinal/microblaze_0/standalone_microblaze_0/bsp/system.mss

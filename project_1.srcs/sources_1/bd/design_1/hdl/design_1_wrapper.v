@@ -1,7 +1,7 @@
 //Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
-//Date        : Fri Oct 14 20:48:38 2022
+//Date        : Thu Oct 20 13:03:12 2022
 //Host        : carvouno3.ics.forth.gr running 64-bit AlmaLinux release 8.6 (Sky Tiger)
 //Command     : generate_target design_1_wrapper.bd
 //Design      : design_1_wrapper

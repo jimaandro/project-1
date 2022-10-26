@@ -2,8 +2,8 @@
 # Vivado v2021.2 (64-bit)
 # SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
 # IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
-# Start of session at: Fri Sep 16 13:26:54 2022
-# Process ID: 104198
+# Start of session at: Thu Oct 20 13:03:35 2022
+# Process ID: 406321
 # Current directory: /home/dimitriosa/Downloads/Project/project_1/project_1.runs/design_1_lmb_bram_0_synth_1
 # Command line: vivado -log design_1_lmb_bram_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_lmb_bram_0.tcl
 # Log file: /home/dimitriosa/Downloads/Project/project_1/project_1.runs/design_1_lmb_bram_0_synth_1/design_1_lmb_bram_0.vds

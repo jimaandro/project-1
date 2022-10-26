@@ -148,14 +148,14 @@ set_property -name "revised_directory_structure" -value "1" -objects $obj
 set_property -name "sim.central_dir" -value "$proj_dir/${_xil_proj_name_}.ip_user_files" -objects $obj
 set_property -name "sim.ip.auto_export_scripts" -value "1" -objects $obj
 set_property -name "simulator_language" -value "Mixed" -objects $obj
-set_property -name "webtalk.activehdl_export_sim" -value "20" -objects $obj
+set_property -name "webtalk.activehdl_export_sim" -value "22" -objects $obj
 set_property -name "webtalk.ies_export_sim" -value "1" -objects $obj
-set_property -name "webtalk.modelsim_export_sim" -value "20" -objects $obj
-set_property -name "webtalk.questa_export_sim" -value "20" -objects $obj
-set_property -name "webtalk.riviera_export_sim" -value "20" -objects $obj
-set_property -name "webtalk.vcs_export_sim" -value "20" -objects $obj
+set_property -name "webtalk.modelsim_export_sim" -value "22" -objects $obj
+set_property -name "webtalk.questa_export_sim" -value "22" -objects $obj
+set_property -name "webtalk.riviera_export_sim" -value "22" -objects $obj
+set_property -name "webtalk.vcs_export_sim" -value "22" -objects $obj
 set_property -name "webtalk.xcelium_export_sim" -value "1" -objects $obj
-set_property -name "webtalk.xsim_export_sim" -value "20" -objects $obj
+set_property -name "webtalk.xsim_export_sim" -value "22" -objects $obj
 set_property -name "webtalk.xsim_launch_sim" -value "52" -objects $obj
 set_property -name "xpm_libraries" -value "XPM_CDC XPM_MEMORY" -objects $obj
 
@@ -340,7 +340,7 @@ proc cr_bd_design_1 { parentCell } {
   set bCheckIPs 1
   if { $bCheckIPs == 1 } {
      set list_check_ips "\ 
-  user.org:user:ALUdesign:6.0\
+  user.org:user:ALUdesign:8.0\
   xilinx.com:ip:axi_bram_ctrl:4.1\
   xilinx.com:ip:axi_uartlite:2.0\
   xilinx.com:ip:blk_mem_gen:8.4\
@@ -509,7 +509,7 @@ proc create_hier_cell_microblaze_0_local_memory { parentCell nameHier } {
  ] $reset
 
   # Create instance: ALUdesign_1, and set properties
-  set ALUdesign_1 [ create_bd_cell -type ip -vlnv user.org:user:ALUdesign:6.0 ALUdesign_1 ]
+  set ALUdesign_1 [ create_bd_cell -type ip -vlnv user.org:user:ALUdesign:8.0 ALUdesign_1 ]
 
   # Create instance: axi_bram_ctrl_0, and set properties
   set axi_bram_ctrl_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_bram_ctrl:4.1 axi_bram_ctrl_0 ]
@@ -650,7 +650,7 @@ connect_bd_intf_net -intf_net [get_bd_intf_nets microblaze_0_M2_AXIS] [get_bd_in
   assign_bd_address -offset 0xC0000000 -range 0x00002000 -target_address_space [get_bd_addr_spaces microblaze_0/Data] [get_bd_addr_segs axi_bram_ctrl_0/S_AXI/Mem0] -force
   assign_bd_address -offset 0x40600000 -range 0x00010000 -target_address_space [get_bd_addr_spaces microblaze_0/Data] [get_bd_addr_segs axi_uartlite_0/S_AXI/Reg] -force
   assign_bd_address -offset 0x00000000 -range 0x00008000 -target_address_space [get_bd_addr_spaces microblaze_0/Data] [get_bd_addr_segs microblaze_0_local_memory/dlmb_bram_if_cntlr/SLMB/Mem] -force
-  assign_bd_address -offset 0x00000000 -range 0x00008000 -target_address_space [get_bd_addr_spaces microblaze_0/Instruction] [get_bd_addr_segs microblaze_0_local_memory/ilmb_bram_if_cntlr/SLMB/Mem] -force
+  assign_bd_address -offset 0x00000000 -range 0x00080000 -target_address_space [get_bd_addr_spaces microblaze_0/Instruction] [get_bd_addr_segs microblaze_0_local_memory/ilmb_bram_if_cntlr/SLMB/Mem] -force
 
 
   # Restore current instance

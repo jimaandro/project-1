@@ -46,41 +46,68 @@
  */
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 #include "platform.h"
 #include "xil_printf.h"
 #include "xil_io.h"
 #include "fsl.h"
-//#include "sleep.h"
+
 #include  "sys/types.h"
 
 #include "unistd.h"
 
+union u
+{
+	int num;
+	float fnum;
+} ;
+
+
 int main()
 {
 	init_platform();
-	int result=0;
 
+	union u n1, n2, result, actualResult;
+	srand(0);//cannot use time(null) but it looks like it's working
 
 
 	////////(val ,id)
+	for(int i=0; i<1000; i++)
+	{
+		n1.fnum= ((float)rand()/RAND_MAX)*(float)(100000.0) -50000;
+		n2.fnum= ((float)rand()/RAND_MAX)*(float)(100000.0)-50000;
 
-	putfsl(0xc0000000,0);//num1=-2
-	putfsl(0x40200000,1);//num2=2.5
-	putfsl(0,2);//opcode=0 => ADD
+		actualResult.fnum= n1.fnum + n2.fnum;
+		putfsl(n1.num,0);//num1
+		putfsl(n2.num,1);//num2
+		putfsl(0,2);//opcode=0 => ADD
 
-	getfsl(result, 3);//save the result
+		getfsl(result.num, 3);//save the result
+		if(actualResult.fnum==result.fnum)
+		{
+			printf("Correct %d\n\r", i);
+		}
+		else
+		{
+			printf("Error %d  num1 %f num2 %f AR %f AR   %x R %f R  %x\n\r", i , n1.fnum , n2.fnum, actualResult.fnum, actualResult.num, result.fnum, result.num);
+			//break;
+		}
+	}
+/*
 
-	xil_printf("Hello\n\r The result is: %x\n\n\r",result);
+	printf("Hello\n\r The result is: %f\n\n\r", result.fnum);
 
 
-
-	putfsl(0xc0000000,0);//num1=0
-	putfsl(0x40200000,1);//num2=2
+	n1.fnum=-2.6791;
+	n2.fnum=254.1415;
+	putfsl(n1.num,0);//num1
+	putfsl(n2.num,1);//num2
 	putfsl(2,2);//opcode=2 => MUL
 
-	getfsl(result, 3);//save the result
+	getfsl(result.num, 3);//save the result
 
-	xil_printf("Hello\n\r The result is: %x\n\n\r",result);
+	printf("Hello\n\r The result is: %f\n\n\r",result.fnum);*/
 
 	cleanup_platform();
 	return 0;
